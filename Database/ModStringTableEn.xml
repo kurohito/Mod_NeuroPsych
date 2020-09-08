@@ -1,0 +1,20 @@
+<Database>
+    <GameDBStringTable ID="ADDON_NEUROPSYCH">
+    
+    <LanguageCode>en</LanguageCode>
+    <LanguageNameLocalized>English</LanguageNameLocalized>
+		
+	<Contributors>
+    <Name>Violet Unicorn</Name>
+    </Contributors>
+		
+	<LocalizedStrings>
+		
+	<GameDBLocalizedString>      <LocID>ADDON_MOD_NEUROPSYCH</LocID>                       
+	<Text>Neuropsychology Department</Text>  </GameDBLocalizedString>
+	
+	</LocalizedStrings>
+	
+	</GameDBStringTable>
+
+</Database>

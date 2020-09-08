@@ -1,0 +1,52 @@
+<Database>
+	<!-- ######################### -->
+	<!-- Neuropsychology Mod by Violet Unicorn -->
+
+
+    <GameDBStringTable ID="LOC_EN_ADDON_NEUROPSYCH_BUILDING_MODE">
+
+        <LanguageCode>en</LanguageCode>
+		<LanguageNameLocalized>English</LanguageNameLocalized>
+
+        <Contributors>
+            <Name>Violet Unicorn</Name>
+        </Contributors>
+
+        <LocalizedStrings>
+
+		<GameDBLocalizedString>	
+			<LocID>ROOM_TYPE_NEUROPSYCH_OFFICE</LocID>
+			<Text>Neuropsychology Office</Text>	
+		</GameDBLocalizedString>
+		
+		<GameDBLocalizedString>	
+			<LocID>ROOM_TYPE_NEUROPSYCH_OFFICE_DESC</LocID>				
+			<Text>The Neuropsychology office is common diagnostic mental health department outpatient office. \n\nMin. Staff requirements: \n1x Neuropsychologist</Text>	
+		</GameDBLocalizedString>
+		
+		<!--<GameDBLocalizedString>
+		<LocID>ROOM_TYPE_INPATIENT_NEUROPSYCH_OFFICE</LocID>                               
+		<Text>Inpatient Neuropsychology Office</Text>   
+		</GameDBLocalizedString>
+            
+		<GameDBLocalizedString>      
+		<LocID>ROOM_TYPE_INPATIENT_NEUROPSYCH_OFFICE_DESC</LocID>                   
+		<Text>A Neuropsychology Diagnostic unit at Neuropsycholgy department provides examination and treatment procedures for hospitalized patients. \n\nMin. Staff requirements: \n1x Neuropsychologist \n(Personnel based in On-call room)</Text>
+		</GameDBLocalizedString>-->
+
+		
+
+		<GameDBLocalizedString>	
+			<LocID>OBJECT_DECAL_NEUROPSYCH_DPT</LocID>								
+			<Text>Neuropsychology Department</Text>	
+		</GameDBLocalizedString>
+		
+		<GameDBLocalizedString>	
+			<LocID>OBJECT_DECAL_NEUROPSYCH_DESC</LocID>								
+			<Text>Wall decal</Text>	
+		</GameDBLocalizedString>
+
+
+        </LocalizedStrings>
+    </GameDBStringTable>
+</Database>

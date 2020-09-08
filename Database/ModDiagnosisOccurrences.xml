@@ -1,0 +1,41 @@
+<Database>
+	<!-- ######################### -->
+	<!-- Neuropsychology Mod by Violet Unicorn -->
+
+    <GameDBDiagnosisOccurrence ID="OCCURRENCE_VIO_COMMON">
+        <OccurrenceRate>100</OccurrenceRate>
+    </GameDBDiagnosisOccurrence>
+    
+    <GameDBDiagnosisOccurrence ID="OCCURRENCE_VIO_UNCOMMON">
+        <OccurrenceRate>75</OccurrenceRate>
+    </GameDBDiagnosisOccurrence>
+	
+	<GameDBDiagnosisOccurrence ID="OCCURRENCE_VIO_UNLIKELY">
+        <OccurrenceRate>50</OccurrenceRate>
+    </GameDBDiagnosisOccurrence>
+    
+    <GameDBDiagnosisOccurrence ID="OCCURRENCE_VIO_RARE">
+        <OccurrenceRate>33</OccurrenceRate>
+    </GameDBDiagnosisOccurrence>
+	
+	<GameDBDiagnosisOccurrence ID="OCCURRENCE_VIO_PRETTYRARE">
+        <OccurrenceRate>25</OccurrenceRate>
+    </GameDBDiagnosisOccurrence>
+	
+	<GameDBDiagnosisOccurrence ID="OCCURRENCE_VIO_VERYRARE">
+		<OccurrenceRate>10</OccurrenceRate>
+	</GameDBDiagnosisOccurrence>
+	  
+	<GameDBDiagnosisOccurrence ID="OCCURRENCE_VIO_ULTRARARE">
+		<OccurrenceRate>5</OccurrenceRate>
+	</GameDBDiagnosisOccurrence>
+	
+	<GameDBDiagnosisOccurrence ID="OCCURRENCE_VIO_UNIQUE">
+		<OccurrenceRate>2</OccurrenceRate>
+	</GameDBDiagnosisOccurrence>
+	
+	<GameDBDiagnosisOccurrence ID="OCCURRENCE_VIO_ULTRAUNIQUE">
+		<OccurrenceRate>1</OccurrenceRate>
+	</GameDBDiagnosisOccurrence>
+
+</Database>

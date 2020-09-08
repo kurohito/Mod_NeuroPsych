@@ -1,0 +1,209 @@
+<Database>
+	<!-- ######################### -->
+	<!-- Neuropsychology Mod by Violet Unicorn -->
+	
+
+	<GameDBRoomType ID="ROOM_TYPE_NEUROPSYCH_OFFICE">
+	<AbbreviationLocID>ROOM_TYPE_NEUROPSYCH_OFFICE_DESC</AbbreviationLocID>
+	<TextureID>384</TextureID>
+	<IconIndex>800</IconIndex>
+	<AccessRights>PATIENT_PROCEDURE</AccessRights>
+
+	<RequiredEquipment>
+
+    <GameDBRequiredEquipment>    
+    	<Tag>ui_pc</Tag>                  			
+    	<MinCount>1</MinCount>    
+    </GameDBRequiredEquipment>
+
+    <GameDBRequiredEquipment>    
+    	<Tag>ui_print</Tag>             			
+    	<MinCount>1</MinCount>    
+    </GameDBRequiredEquipment>
+
+    <GameDBRequiredEquipment>    
+    	<Tag>ui_cabinets_equipment</Tag>       	
+    	<MinCount>1</MinCount>    
+    </GameDBRequiredEquipment>
+
+    <GameDBRequiredEquipment>    
+    	<Tag>ui_exam_table</Tag>          			
+    	<MinCount>1</MinCount>    
+    </GameDBRequiredEquipment>
+
+    <GameDBRequiredEquipment>    
+    	<Tag>ui_exam_lamp_def</Tag>       			
+    	<MinCount>1</MinCount>    
+    </GameDBRequiredEquipment>
+
+    <GameDBRequiredEquipment>    
+    	<Tag>ui_clean_hands</Tag>         			
+    	<MinCount>1</MinCount>    
+    </GameDBRequiredEquipment>
+
+    <GameDBRequiredEquipment>    
+    	<Tag>ui_biohazard_bin</Tag>     			
+    	<MinCount>1</MinCount>    
+    </GameDBRequiredEquipment>
+
+    <GameDBRequiredEquipment>    
+    	<Tag>ui_eye_test</Tag>            			
+    	<MinCount>1</MinCount>    
+    </GameDBRequiredEquipment>
+
+    <GameDBRequiredEquipment>    
+    	<Tag>ui_office_desk</Tag>          		
+    	<MinCount>0</MinCount>    
+    </GameDBRequiredEquipment>
+
+    <GameDBRequiredEquipment>    
+    	<Tag>ui_equipment_table</Tag>          	
+    	<MinCount>0</MinCount>    
+    </GameDBRequiredEquipment>
+
+    <GameDBRequiredEquipment>    
+    	<Tag>ui_chair_office</Tag>          		
+    	<MinCount>0</MinCount>    
+    </GameDBRequiredEquipment>
+
+    <GameDBRequiredEquipment>    
+    	<Tag>whiteboard</Tag>          		    
+    	<MinCount>0</MinCount>    
+    </GameDBRequiredEquipment>
+
+    </RequiredEquipment>
+
+	<AcceptsOutpatients>true</AcceptsOutpatients>
+	<NoNightShift>false</NoNightShift>
+
+	<BuildingModeFilters>
+        <Tag>ui_oxygen_tank</Tag>
+        <Tag>ui_mobile_cabinet</Tag>
+        <Tag>ui_cabinets</Tag>
+        <Tag>ui_bookcase</Tag>
+        <Tag>ui_card_file</Tag>
+        <Tag>ui_chair_def</Tag>
+        <Tag>ui_privacy_screens</Tag>
+    </BuildingModeFilters>
+
+	<Tags>
+        <Tag>doctor_workspace</Tag>
+        <Tag>intern_workspace</Tag>
+        <Tag>small_equipment</Tag>
+        <Tag>examinations_no_equipment</Tag>
+        <Tag>examinations_basic_equipment</Tag>
+        <Tag>any_outpatient_office</Tag>
+        <Tag>any_office</Tag>
+        <Tag>specialized_office</Tag>
+        <Tag>neuropsych_office</Tag>
+        <Tag>receipt</Tag>
+    </Tags>
+        
+	<RequiredSkill>SKILL_DOC_SPEC_NEUROPSYCH</RequiredSkill>
+	<MinWidth>4</MinWidth>
+	<MinHeight>4</MinHeight> 
+	<StatisticsMultiplier>1.75</StatisticsMultiplier>
+
+	</GameDBRoomType>
+<!--
+	<GameDBRoomType ID="ROOM_TYPE_INPATIENT_NEUROPSYCH_OFFICE">
+	<AbbreviationLocID>ROOM_TYPE_INPATIENT_NEUROPSYCH_OFFICE_DESC</AbbreviationLocID>
+	<TextureID>384</TextureID>
+	<IconIndex>800</IconIndex>
+	<AccessRights>PATIENT_PROCEDURE</AccessRights>
+
+	<RequiredEquipment>
+        <GameDBRequiredEquipment>    
+        <Tag>ui_cabinets_equipment</Tag>       		
+        <MinCount>1</MinCount>  
+    </GameDBRequiredEquipment>
+
+    <GameDBRequiredEquipment>    
+    	<Tag>ui_exam_table</Tag>          				
+    	<MinCount>1</MinCount>  
+    </GameDBRequiredEquipment>
+
+    <GameDBRequiredEquipment>    
+    	<Tag>ui_exam_lamp_def</Tag>       				
+    	<MinCount>1</MinCount>  
+    </GameDBRequiredEquipment>
+
+    <GameDBRequiredEquipment>    
+    	<Tag>ui_clean_hands</Tag>         				
+    	<MinCount>1</MinCount>  
+    </GameDBRequiredEquipment>
+
+    <GameDBRequiredEquipment>    
+    	<Tag>ui_biohazard_bin</Tag>     				
+    	<MinCount>1</MinCount>  
+    </GameDBRequiredEquipment>
+
+    <GameDBRequiredEquipment>    
+    	<Tag>ui_eye_test</Tag>            				
+    	<MinCount>1</MinCount>  
+    </GameDBRequiredEquipment>
+
+    <GameDBRequiredEquipment>    
+    	<Tag>ui_workstation</Tag>  					
+    	<MinCount>1</MinCount>  
+    </GameDBRequiredEquipment>
+
+    <GameDBRequiredEquipment>    
+    	<Tag>ui_dialysis_machine</Tag>    				
+    	<MinCount>1</MinCount>  
+    </GameDBRequiredEquipment>
+
+    <GameDBRequiredEquipment>    
+    	<Tag>ui_stretcher</Tag>          				
+    	<MinCount>0</MinCount>  
+    </GameDBRequiredEquipment>
+
+    <GameDBRequiredEquipment>    
+    	<Tag>ui_wheelchair</Tag>          				
+    	<MinCount>0</MinCount>  
+    </GameDBRequiredEquipment>
+
+    <GameDBRequiredEquipment>    
+    	<Tag>whiteboard</Tag>          		    
+    	<MinCount>0</MinCount>    
+    </GameDBRequiredEquipment>
+    <GameDBRequiredEquipment>    
+    	<Tag>ui_equipment_table</Tag>          	
+    	<MinCount>0</MinCount>    
+    </GameDBRequiredEquipment>
+
+    </RequiredEquipment>
+
+        <LockedByDefault>false</LockedByDefault>
+
+        <BuildingModeFilters>
+        	<Tag>ui_oxygen_tank</Tag>
+        	<Tag>ui_mobile_cabinet</Tag>
+        	<Tag>ui_cabinets</Tag>
+        	<Tag>ui_bookcase</Tag>
+        	<Tag>ui_card_file</Tag>
+        	<Tag>ui_chair_def</Tag>
+        	<Tag>ui_privacy_screens</Tag>
+        	<Tag>stool</Tag>
+        </BuildingModeFilters>
+
+        <Tags>
+            <Tag>dialysis_machine</Tag>
+            <Tag>examinations_no_equipment</Tag>
+            <Tag>examinations_basic_equipment</Tag>
+            <Tag>specialized_office</Tag>
+            <Tag>neuropsych_office</Tag>
+            <Tag>neuropsych_inpatient_office</Tag>
+            <Tag>any_inpatient_office</Tag>
+            <Tag>any_office</Tag>
+            <Tag>receipt</Tag>
+        </Tags>
+
+        <MinWidth>4</MinWidth>
+        <MinHeight>4</MinHeight>
+
+        <StatisticsMultiplier>1.2</StatisticsMultiplier>
+    </GameDBRoomType>-->
+
+
+</Database>

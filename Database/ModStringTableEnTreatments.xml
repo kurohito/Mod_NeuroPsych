@@ -1,0 +1,59 @@
+﻿<Database>
+    <GameDBStringTable ID="LOC_EN_ADDON_NEUROPSYCH_TREATMENTS">
+
+        <LanguageCode>en</LanguageCode>
+        <LanguageNameLocalized>English</LanguageNameLocalized>
+
+        <Contributors>
+			<Name>Violet Unicorn</Name>
+        </Contributors>
+
+        <LocalizedStrings>
+			
+			<!-- ================================================== TREATMENTS ================================================== -->
+			
+			<GameDBLocalizedString>	<LocID>TRT_VIO_MEMANTINE</LocID>								
+			<Text>Memantine</Text>	
+			</GameDBLocalizedString>
+			<GameDBLocalizedString>	<LocID>TRT_VIO_MEMANTINE_DESCRIPTION</LocID>					
+			<Text>Memantine is a medication used to treat moderate-to-severe Alzheimer's disease.</Text>	
+			</GameDBLocalizedString>
+
+			<GameDBLocalizedString>	<LocID>TRT_VIO_SUPPORTIVE_PSYCHOTHERAPY</LocID>								
+			<Text>Supportive Psychotherapy</Text>	
+			</GameDBLocalizedString>
+			<GameDBLocalizedString>	<LocID>TRT_VIO_SUPPORTIVE_PSYCHOTHERAPY_DESCRIPTION</LocID>					
+			<Text>Supportive psychotherapy is a psychotherapeutic approach that integrates various schools to provide therapeutic support. It includes components from therapeutic schools such as psychodynamic, cognitive-behavioral, and interpersonal conceptual models and techniques.</Text>	
+			</GameDBLocalizedString>
+
+			<GameDBLocalizedString>	<LocID>TRT_VIO_PALLIATIVE_CARE</LocID>								
+			<Text>Palliative Care</Text>	
+			</GameDBLocalizedString>
+			<GameDBLocalizedString>	<LocID>TRT_VIO_PALLIATIVE_CARE_DESCRIPTION</LocID>					
+			<Text>Palliative care is an interdisciplinary medical caregiving approach aimed at optimizing quality of life and mitigating suffering among people with serious, complex illness.</Text>	
+			</GameDBLocalizedString>
+
+			<GameDBLocalizedString>	<LocID>TRT_VIO_SEDATIVES</LocID>								
+			<Text>Sedatives</Text>	
+			</GameDBLocalizedString>
+			<GameDBLocalizedString>	<LocID>TRT_VIO_SEDATIVES_DESCRIPTION</LocID>					
+			<Text>Sedatives are a type of prescription medication that slows down brain activity. They're typically used to induce a relaxed effect.</Text>	
+			</GameDBLocalizedString>
+
+			<GameDBLocalizedString>	<LocID>TRT_VIO_SPEECH_AND_LANGUAGE_THERAPY</LocID>								
+			<Text>Speech And Language Therapy</Text>	
+			</GameDBLocalizedString>
+			<GameDBLocalizedString>	<LocID>TRT_VIO_SPEECH_AND_LANGUAGE_THERAPY_DESCRIPTION</LocID>					
+			<Text>Speech and language therapy techniques are used to improve communication. These include articulation therapy, language intervention activities, and others.</Text>	
+			</GameDBLocalizedString>
+
+			<GameDBLocalizedString>	<LocID>TRT_VIO_NUEDEXTA</LocID>								
+			<Text>Nuedexta</Text>	
+			</GameDBLocalizedString>
+			<GameDBLocalizedString>	<LocID>TRT_VIO_NUEDEXTA_DESCRIPTION</LocID>					
+			<Text>Nuedexta is used to treat involuntary outbursts of crying or laughing in people with certain neurological disorders.</Text>	
+			</GameDBLocalizedString>
+
+			</LocalizedStrings>
+    </GameDBStringTable>
+</Database>

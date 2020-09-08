@@ -1,0 +1,44 @@
+﻿<Database>
+    <GameDBStringTable ID="LOC_EN_ADDON_NEUROPSYCH_EXAMINATIONS">
+
+        <LanguageCode>en</LanguageCode>
+        <LanguageNameLocalized>English</LanguageNameLocalized>
+
+        <Contributors>
+			<Name>Violet Unicorn</Name>
+        </Contributors>
+
+        <LocalizedStrings>
+
+			<!-- ================================================== EXAMINATIONS ================================================== -->
+			      			
+            <GameDBLocalizedString> <LocID>EXM_VIO_PSYCHOLOGICAL_ASSESSMENT</LocID>         
+            <Text>Psychological Assessment</Text>   
+            </GameDBLocalizedString>
+            <GameDBLocalizedString> <LocID>EXM_VIO_PSYCHOLOGICAL_ASSESSMENT_DESCRIPTION</LocID>     
+            <Text>A psychological assessment is designed to assess and diagnose various mental health conditions.</Text>   
+            </GameDBLocalizedString>
+
+            <GameDBLocalizedString> <LocID>EXM_VIO_NEUROPSYCHOLOGICAL_ASSESSMENT</LocID>                 
+            <Text>Neuropsychological Assessment</Text>   
+            </GameDBLocalizedString>
+            <GameDBLocalizedString> <LocID>EXM_VIO_NEUROPSYCHOLOGICAL_ASSESSMENT_DESCRIPTION</LocID>     <Text>A Neuropsychological assessment is designed to assess cognitive functioning. This method is used to examine the cognitive consequences of brain damage, brain disease, and severe mental illness.</Text>   
+            </GameDBLocalizedString>
+
+            <GameDBLocalizedString> <LocID>EXM_VIO_EXECUTIVE_FUNCTION_TEST</LocID>                 
+            <Text>Executive Function Test</Text>   
+            </GameDBLocalizedString>
+            <GameDBLocalizedString> <LocID>EXM_VIO_EXECUTIVE_FUNCTION_TEST_DESCRIPTION</LocID>     <Text>An Executive function test is an assesment of a set of mental skills that include working memory, flexible thinking, and self-control. Trouble with executive function can make it hard to focus, follow directions, and handle emotions, among other things.</Text>   
+            </GameDBLocalizedString>
+
+            <GameDBLocalizedString> <LocID>EXM_VIO_ADAS_COG_TEST</LocID>                 
+            <Text>Alzheimer's Disease Assessment Scale-Cognitive Subscale test</Text>   
+            </GameDBLocalizedString>
+
+            <GameDBLocalizedString> <LocID>EXM_VIO_ADAS_COG_TEST_DESCRIPTION</LocID>     
+            <Text>The Alzheimer's Disease Assessment Scale-Cognitive Subscale test is one of the most frequently used tests to measure cognition in research studies and clinical trials for new drugs and other interventions. It's more thorough than the Mini Mental State Exam, and it primarily measures language and memory.</Text>   
+            </GameDBLocalizedString>
+			
+        </LocalizedStrings>
+    </GameDBStringTable>
+</Database>

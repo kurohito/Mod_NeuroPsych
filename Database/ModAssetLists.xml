@@ -1,0 +1,512 @@
+<Database>
+	<!-- ######################### -->
+	<!-- Neuropsychology Mod by Violet Unicorn -->
+
+<!-- ================================================== Decals ================================================== -->
+
+	<!-- Neuropsychology Department Decals -->
+    <GameDBAsset ID="ASSET_TEX_NEUROPSYCH_DECALS">   					<Type>TEXTURE_OBJECTS</Type>   				  <File>MOD_ROOT/mod_decals_2048_atlas_neuropsych.png</File> </GameDBAsset>
+
+
+<!-- ================================================== Skills ================================================== -->
+
+	<!-- Neuropsychology Skill -->
+    <GameDBAsset ID="ASSET_NEUROPSYCH_ICON_SK">							<Type>TEXTURE_CUSTOM_SPRITE</Type> 			  <File>MOD_ROOT/mod_vio_neuropsych_skill_icon.png</File> </GameDBAsset>
+	<GameDBAsset ID="ASSET_NEUROPSYCH_ICON_SK_DARK">					<Type>TEXTURE_CUSTOM_SPRITE</Type> 			  <File>MOD_ROOT/mod_vio_neuropsych_skill_icon_dark.png</File> </GameDBAsset>
+
+	
+<!-- ================================================== Department ================================================== -->
+
+	<!-- Neuropsychology Department -->
+	<GameDBAsset ID="ASSET_NEUROPSYCH_DPT_ICON_00"> 						<Type>TEXTURE_CUSTOM_SPRITE</Type> 			  <File>MOD_ROOT/mod_vio_neuropsych_dept_icon_00.png</File> </GameDBAsset>
+	<GameDBAsset ID="ASSET_NEUROPSYCH_DPT_ICON_01"> 						<Type>TEXTURE_CUSTOM_SPRITE</Type> 			  <File>MOD_ROOT/mod_vio_neuropsych_dept_icon_01.png</File> </GameDBAsset>
+	<GameDBAsset ID="ASSET_NEUROPSYCH_DPT_ICON_02"> 						<Type>TEXTURE_CUSTOM_SPRITE</Type> 			  <File>MOD_ROOT/mod_vio_neuropsych_dept_icon_02.png</File> </GameDBAsset>
+	<GameDBAsset ID="ASSET_NEUROPSYCH_DPT_ICON_03"> 						<Type>TEXTURE_CUSTOM_SPRITE</Type> 			  <File>MOD_ROOT/mod_vio_neuropsych_dept_icon_03.png</File> </GameDBAsset>
+	<GameDBAsset ID="ASSET_NEUROPSYCH_DPT_ICON_04"> 						<Type>TEXTURE_CUSTOM_SPRITE</Type> 			  <File>MOD_ROOT/mod_vio_neuropsych_dept_icon_04.png</File> </GameDBAsset>
+	<GameDBAsset ID="ASSET_NEUROPSYCH_DPT_ICON_05"> 						<Type>TEXTURE_CUSTOM_SPRITE</Type> 			  <File>MOD_ROOT/mod_vio_neuropsych_dept_icon_05.png</File> </GameDBAsset>
+	<GameDBAsset ID="ASSET_NEUROPSYCH_DPT_ICON_06"> 						<Type>TEXTURE_CUSTOM_SPRITE</Type> 			  <File>MOD_ROOT/mod_vio_neuropsych_dept_icon_06.png</File> </GameDBAsset>
+	
+<!-- ================================================== Diagnostics ================================================== -->
+
+	<!-- Alzheimer's disease -->
+	<GameDBAsset ID="ASSET_NEUROPSYCH_ICON_DIAG1"> 					    <Type>TEXTURE_CUSTOM_SPRITE</Type> 			  <File>MOD_ROOT/mod_vio_neuropsych_diag_icon_01.png</File> </GameDBAsset>
+	<GameDBAsset ID="ASSET_NEUROPSYCH_ICON_DIAG1_SMALL"> 				<Type>TEXTURE_CUSTOM_SPRITE</Type> 			  <File>MOD_ROOT/mod_vio_neuropsych_diag_icon_01_small.png</File> </GameDBAsset>
+
+	<!-- Creutzfeldt-Jakob disease --><!--
+	<GameDBAsset ID="ASSET_NEUROPSYCH_ICON_DIAG2"> 					    <Type>TEXTURE_CUSTOM_SPRITE</Type> 			  <File>MOD_ROOT/mod_vio_neuropsych_diag_icon_02.png</File> </GameDBAsset>
+	<GameDBAsset ID="ASSET_NEUROPSYCH_ICON_DIAG2_SMALL"> 				<Type>TEXTURE_CUSTOM_SPRITE</Type> 			  <File>MOD_ROOT/mod_vio_neuropsych_diag_icon_02_small.png</File> </GameDBAsset>-->
+
+	<!-- Dementia with Lewy bodies --><!--
+	<GameDBAsset ID="ASSET_NEUROPSYCH_ICON_DIAG3"> 					    <Type>TEXTURE_CUSTOM_SPRITE</Type> 			  <File>MOD_ROOT/mod_vio_neuropsych_diag_icon_03.png</File> </GameDBAsset>
+	<GameDBAsset ID="ASSET_NEUROPSYCH_ICON_DIAG3_SMALL"> 				<Type>TEXTURE_CUSTOM_SPRITE</Type> 			  <File>MOD_ROOT/mod_vio_neuropsych_diag_icon_03_small.png</File> </GameDBAsset>-->
+	
+	<!-- Parkinson's disease --><!--
+	<GameDBAsset ID="ASSET_NEUROPSYCH_ICON_DIAG4"> 					    <Type>TEXTURE_CUSTOM_SPRITE</Type> 			  <File>MOD_ROOT/mod_vio_neuropsych_diag_icon_04.png</File> </GameDBAsset>
+	<GameDBAsset ID="ASSET_NEUROPSYCH_ICON_DIAG4_SMALL"> 				<Type>TEXTURE_CUSTOM_SPRITE</Type> 			  <File>MOD_ROOT/mod_vio_neuropsych_diag_icon_04_small.png</File> </GameDBAsset>-->
+
+	<!-- Huntington's disease --><!--
+	<GameDBAsset ID="ASSET_NEUROPSYCH_ICON_DIAG5"> 					    <Type>TEXTURE_CUSTOM_SPRITE</Type> 			  <File>MOD_ROOT/mod_vio_neuropsych_diag_icon_05.png</File> </GameDBAsset>
+	<GameDBAsset ID="ASSET_NEUROPSYCH_ICON_DIAG5_SMALL"> 				<Type>TEXTURE_CUSTOM_SPRITE</Type> 			  <File>MOD_ROOT/mod_vio_neuropsych_diag_icon_05_small.png</File> </GameDBAsset>-->
+
+	<!-- Autism Spectrum Disorder --><!--
+	<GameDBAsset ID="ASSET_NEUROPSYCH_ICON_DIAG6"> 					    <Type>TEXTURE_CUSTOM_SPRITE</Type> 			  <File>MOD_ROOT/mod_vio_neuropsych_diag_icon_06.png</File> </GameDBAsset>
+	<GameDBAsset ID="ASSET_NEUROPSYCH_ICON_DIAG6_SMALL"> 				<Type>TEXTURE_CUSTOM_SPRITE</Type> 			  <File>MOD_ROOT/mod_vio_neuropsych_diag_icon_06_small.png</File> </GameDBAsset>-->
+
+	<!-- Asperger syndrome --><!--
+	<GameDBAsset ID="ASSET_NEUROPSYCH_ICON_DIAG7"> 					    <Type>TEXTURE_CUSTOM_SPRITE</Type> 			  <File>MOD_ROOT/mod_vio_neuropsych_diag_icon_07.png</File> </GameDBAsset>
+	<GameDBAsset ID="ASSET_NEUROPSYCH_ICON_DIAG7_SMALL"> 				<Type>TEXTURE_CUSTOM_SPRITE</Type> 			  <File>MOD_ROOT/mod_vio_neuropsych_diag_icon_07_small.png</File> </GameDBAsset>-->
+
+	<!-- Dyslexia --><!--
+	<GameDBAsset ID="ASSET_NEUROPSYCH_ICON_DIAG8"> 					    <Type>TEXTURE_CUSTOM_SPRITE</Type> 			  <File>MOD_ROOT/mod_vio_neuropsych_diag_icon_08.png</File> </GameDBAsset>
+	<GameDBAsset ID="ASSET_NEUROPSYCH_ICON_DIAG8_SMALL"> 				<Type>TEXTURE_CUSTOM_SPRITE</Type> 			  <File>MOD_ROOT/mod_vio_neuropsych_diag_icon_08_small.png</File> </GameDBAsset>-->
+
+	<!-- Tourette's syndrome --><!--
+	<GameDBAsset ID="ASSET_NEUROPSYCH_ICON_DIAG9"> 					    <Type>TEXTURE_CUSTOM_SPRITE</Type> 			  <File>MOD_ROOT/mod_vio_neuropsych_diag_icon_09.png</File> </GameDBAsset>
+	<GameDBAsset ID="ASSET_NEUROPSYCH_ICON_DIAG9_SMALL"> 				<Type>TEXTURE_CUSTOM_SPRITE</Type> 			  <File>MOD_ROOT/mod_vio_neuropsych_diag_icon_09_small.png</File> </GameDBAsset>-->
+
+	<!-- Attention-deficit/hyperactivity disorder (ADHD) --><!--
+	<GameDBAsset ID="ASSET_NEUROPSYCH_ICON_DIAG10"> 					    <Type>TEXTURE_CUSTOM_SPRITE</Type> 			  <File>MOD_ROOT/mod_vio_neuropsych_diag_icon_10.png</File> </GameDBAsset>
+	<GameDBAsset ID="ASSET_NEUROPSYCH_ICON_DIAG10_SMALL"> 				<Type>TEXTURE_CUSTOM_SPRITE</Type> 			  <File>MOD_ROOT/mod_vio_neuropsych_diag_icon_10_small.png</File> </GameDBAsset>-->
+
+<!-- ================================================== Examinations ================================================== -->
+
+	<!-- Mini–mental state examination (MMSE) --><!--
+	<GameDBAsset ID="ASSET_NEUROPSYCH_ICON_EXAM1"> 					    <Type>TEXTURE_CUSTOM_SPRITE</Type> 			  <File>MOD_ROOT/mod_vio_neuropsych_exam_icon_01.png</File> </GameDBAsset>			
+	<GameDBAsset ID="ASSET_NEUROPSYCH_ICON_EXAM1_SMALL"> 				<Type>TEXTURE_CUSTOM_SPRITE</Type> 			  <File>MOD_ROOT/mod_vio_neuropsych_exam_icon_01_small.png</File> </GameDBAsset>-->
+
+	<!-- Neuropsychological assessment -->
+	<GameDBAsset ID="ASSET_NEUROPSYCH_ICON_EXAM2"> 					    <Type>TEXTURE_CUSTOM_SPRITE</Type> 			  <File>MOD_ROOT/mod_vio_neuropsych_exam_icon_02.png</File> </GameDBAsset>			
+	<GameDBAsset ID="ASSET_NEUROPSYCH_ICON_EXAM2_SMALL"> 				<Type>TEXTURE_CUSTOM_SPRITE</Type> 			  <File>MOD_ROOT/mod_vio_neuropsych_exam_icon_02_small.png</File> </GameDBAsset>
+
+	<!-- Executive Function Test -->
+	<GameDBAsset ID="ASSET_NEUROPSYCH_ICON_EXAM3"> 					    <Type>TEXTURE_CUSTOM_SPRITE</Type> 			  <File>MOD_ROOT/mod_vio_neuropsych_exam_icon_03.png</File> </GameDBAsset>			
+	<GameDBAsset ID="ASSET_NEUROPSYCH_ICON_EXAM3_SMALL"> 				<Type>TEXTURE_CUSTOM_SPRITE</Type> 			  <File>MOD_ROOT/mod_vio_neuropsych_exam_icon_03_small.png</File> </GameDBAsset>
+
+	<!-- Thyroid function test - sample --><!--
+	<GameDBAsset ID="ASSET_NEUROPSYCH_ICON_EXAM4"> 					    <Type>TEXTURE_CUSTOM_SPRITE</Type> 			  <File>MOD_ROOT/mod_vio_neuropsych_exam_icon_04.png</File> </GameDBAsset>			
+	<GameDBAsset ID="ASSET_NEUROPSYCH_ICON_EXAM4_SMALL"> 				<Type>TEXTURE_CUSTOM_SPRITE</Type> 			  <File>MOD_ROOT/mod_vio_neuropsych_exam_icon_04_small.png</File> </GameDBAsset>-->
+
+	<!-- Thyroid function test - test --><!--
+	<GameDBAsset ID="ASSET_NEUROPSYCH_ICON_EXAM5"> 					    <Type>TEXTURE_CUSTOM_SPRITE</Type> 			  <File>MOD_ROOT/mod_vio_neuropsych_exam_icon_05.png</File> </GameDBAsset>			
+	<GameDBAsset ID="ASSET_NEUROPSYCH_ICON_EXAM5_SMALL"> 				<Type>TEXTURE_CUSTOM_SPRITE</Type> 			  <File>MOD_ROOT/mod_vio_neuropsych_exam_icon_05_small.png</File> </GameDBAsset>-->
+	
+	<!-- Real-Time Quaking-Induced Conversion (RT-QuIC) - sample --><!--
+	<GameDBAsset ID="ASSET_NEUROPSYCH_ICON_EXAM6"> 					    <Type>TEXTURE_CUSTOM_SPRITE</Type> 			  <File>MOD_ROOT/mod_vio_neuropsych_exam_icon_06.png</File> </GameDBAsset>			
+	<GameDBAsset ID="ASSET_NEUROPSYCH_ICON_EXAM6_SMALL"> 				<Type>TEXTURE_CUSTOM_SPRITE</Type> 			  <File>MOD_ROOT/mod_vio_neuropsych_exam_icon_06_small.png</File> </GameDBAsset>-->
+
+	<!-- Real-Time Quaking-Induced Conversion (RT-QuIC) - test --><!--
+	<GameDBAsset ID="ASSET_NEUROPSYCH_ICON_EXAM7"> 					    <Type>TEXTURE_CUSTOM_SPRITE</Type> 			  <File>MOD_ROOT/mod_vio_neuropsych_exam_icon_07.png</File> </GameDBAsset>			
+	<GameDBAsset ID="ASSET_NEUROPSYCH_ICON_EXAM7_SMALL"> 				<Type>TEXTURE_CUSTOM_SPRITE</Type> 			  <File>MOD_ROOT/mod_vio_neuropsych_exam_icon_07_small.png</File> </GameDBAsset>-->
+
+	<!-- Predictive genetic testing  - sample --><!--
+	<GameDBAsset ID="ASSET_NEUROPSYCH_ICON_EXAM8"> 					    <Type>TEXTURE_CUSTOM_SPRITE</Type> 			  <File>MOD_ROOT/mod_vio_neuropsych_exam_icon_08.png</File> </GameDBAsset>			
+	<GameDBAsset ID="ASSET_NEUROPSYCH_ICON_EXAM8_SMALL"> 				<Type>TEXTURE_CUSTOM_SPRITE</Type> 			  <File>MOD_ROOT/mod_vio_neuropsych_exam_icon_08_small.png</File> </GameDBAsset>-->
+
+	<!-- Predictive genetic testing - test --><!--
+	<GameDBAsset ID="ASSET_NEUROPSYCH_ICON_EXAM9"> 					    <Type>TEXTURE_CUSTOM_SPRITE</Type> 			  <File>MOD_ROOT/mod_vio_neuropsych_exam_icon_09.png</File> </GameDBAsset>			
+	<GameDBAsset ID="ASSET_NEUROPSYCH_ICON_EXAM9_SMALL"> 				<Type>TEXTURE_CUSTOM_SPRITE</Type> 			  <File>MOD_ROOT/mod_vio_neuropsych_exam_icon_09_small.png</File> </GameDBAsset>-->
+
+	<!-- ASD Screening --><!--
+	<GameDBAsset ID="ASSET_NEUROPSYCH_ICON_EXAM10"> 					    <Type>TEXTURE_CUSTOM_SPRITE</Type> 			  <File>MOD_ROOT/mod_vio_neuropsych_exam_icon_10.png</File> </GameDBAsset>			
+	<GameDBAsset ID="ASSET_NEUROPSYCH_ICON_EXAM10_SMALL"> 				<Type>TEXTURE_CUSTOM_SPRITE</Type> 			  <File>MOD_ROOT/mod_vio_neuropsych_exam_icon_10_small.png</File> </GameDBAsset>-->
+
+	<!-- Learning Ability Evaluation --><!--
+	<GameDBAsset ID="ASSET_NEUROPSYCH_ICON_EXAM11"> 					    <Type>TEXTURE_CUSTOM_SPRITE</Type> 			  <File>MOD_ROOT/mod_vio_neuropsych_exam_icon_11.png</File> </GameDBAsset>			
+	<GameDBAsset ID="ASSET_NEUROPSYCH_ICON_EXAM11_SMALL"> 				<Type>TEXTURE_CUSTOM_SPRITE</Type> 			  <File>MOD_ROOT/mod_vio_neuropsych_exam_icon_11_small.png</File> </GameDBAsset>-->
+
+	<!-- Motor Speed/Skills and Coordination Examination --><!--
+	<GameDBAsset ID="ASSET_NEUROPSYCH_ICON_EXAM12"> 					    <Type>TEXTURE_CUSTOM_SPRITE</Type> 			  <File>MOD_ROOT/mod_vio_neuropsych_exam_icon_12.png</File> </GameDBAsset>			
+	<GameDBAsset ID="ASSET_NEUROPSYCH_ICON_EXAM12_SMALL"> 				<Type>TEXTURE_CUSTOM_SPRITE</Type> 			  <File>MOD_ROOT/mod_vio_neuropsych_exam_icon_12_small.png</File> </GameDBAsset>-->
+
+	<!-- Psychological assessment -->
+	<GameDBAsset ID="ASSET_NEUROPSYCH_ICON_EXAM13"> 					    <Type>TEXTURE_CUSTOM_SPRITE</Type> 			  <File>MOD_ROOT/mod_vio_neuropsych_exam_icon_13.png</File> </GameDBAsset>			
+	<GameDBAsset ID="ASSET_NEUROPSYCH_ICON_EXAM13_SMALL"> 				<Type>TEXTURE_CUSTOM_SPRITE</Type> 			  <File>MOD_ROOT/mod_vio_neuropsych_exam_icon_13_small.png</File> </GameDBAsset>
+
+	<!-- Alzheimer's Disease Assessment Scale-Cognitive -->
+	<GameDBAsset ID="ASSET_NEUROPSYCH_ICON_EXAM14"> 					    <Type>TEXTURE_CUSTOM_SPRITE</Type> 			  <File>MOD_ROOT/mod_vio_neuropsych_exam_icon_14.png</File> </GameDBAsset>			
+	<GameDBAsset ID="ASSET_NEUROPSYCH_ICON_EXAM14_SMALL"> 				<Type>TEXTURE_CUSTOM_SPRITE</Type> 			  <File>MOD_ROOT/mod_vio_neuropsych_exam_icon_14_small.png</File> </GameDBAsset>
+
+<!-- ================================================== Symptoms ================================================== -->
+
+	<!-- == Avolition == -->
+	<GameDBAsset ID="ASSET_NEUROPSYCH_ICON_S1"> 						   <Type>TEXTURE_CUSTOM_SPRITE</Type> 			  <File>MOD_ROOT/mod_vio_neuropsych_sym_icon_01.png</File> </GameDBAsset>
+	<GameDBAsset ID="ASSET_NEUROPSYCH_ICON_S1_SMALL"> 				   <Type>TEXTURE_CUSTOM_SPRITE</Type> 			  <File>MOD_ROOT/mod_vio_neuropsych_sym_icon_01_small.png</File> </GameDBAsset>
+
+	<!-- == Short Term Memory Loss == -->
+	<GameDBAsset ID="ASSET_NEUROPSYCH_ICON_S2"> 						   <Type>TEXTURE_CUSTOM_SPRITE</Type> 			  <File>MOD_ROOT/mod_vio_neuropsych_sym_icon_02.png</File> </GameDBAsset>
+	<GameDBAsset ID="ASSET_NEUROPSYCH_ICON_S2_SMALL"> 				   <Type>TEXTURE_CUSTOM_SPRITE</Type> 			  <File>MOD_ROOT/mod_vio_neuropsych_sym_icon_02_small.png</File> </GameDBAsset>
+
+	<!-- == Mood Swings == -->
+	<GameDBAsset ID="ASSET_NEUROPSYCH_ICON_S3"> 						   <Type>TEXTURE_CUSTOM_SPRITE</Type> 			  <File>MOD_ROOT/mod_vio_neuropsych_sym_icon_03.png</File> </GameDBAsset>
+	<GameDBAsset ID="ASSET_NEUROPSYCH_ICON_S3_SMALL"> 				   <Type>TEXTURE_CUSTOM_SPRITE</Type> 			  <File>MOD_ROOT/mod_vio_neuropsych_sym_icon_03_small.png</File> </GameDBAsset>
+
+	<!-- == Memory Gaps == -->
+	<GameDBAsset ID="ASSET_NEUROPSYCH_ICON_S4"> 						   <Type>TEXTURE_CUSTOM_SPRITE</Type> 			  <File>MOD_ROOT/mod_vio_neuropsych_sym_icon_04.png</File> </GameDBAsset>
+	<GameDBAsset ID="ASSET_NEUROPSYCH_ICON_S4_SMALL"> 				   <Type>TEXTURE_CUSTOM_SPRITE</Type> 			  <File>MOD_ROOT/mod_vio_neuropsych_sym_icon_04_small.png</File> </GameDBAsset>
+
+	<!-- == Aphasia == -->
+	<GameDBAsset ID="ASSET_NEUROPSYCH_ICON_S5"> 						   <Type>TEXTURE_CUSTOM_SPRITE</Type> 			  <File>MOD_ROOT/mod_vio_neuropsych_sym_icon_05.png</File> </GameDBAsset>
+	<GameDBAsset ID="ASSET_NEUROPSYCH_ICON_S5_SMALL"> 				   <Type>TEXTURE_CUSTOM_SPRITE</Type> 			  <File>MOD_ROOT/mod_vio_neuropsych_sym_icon_05_small.png</File> </GameDBAsset>
+
+	<!-- == Disorientation == -->
+	<GameDBAsset ID="ASSET_NEUROPSYCH_ICON_S6"> 						   <Type>TEXTURE_CUSTOM_SPRITE</Type> 			  <File>MOD_ROOT/mod_vio_neuropsych_sym_icon_06.png</File> </GameDBAsset>
+	<GameDBAsset ID="ASSET_NEUROPSYCH_ICON_S6_SMALL"> 				   <Type>TEXTURE_CUSTOM_SPRITE</Type> 			  <File>MOD_ROOT/mod_vio_neuropsych_sym_icon_06_small.png</File> </GameDBAsset>
+
+	<!-- == Inappropriate behaviour == -->
+	<GameDBAsset ID="ASSET_NEUROPSYCH_ICON_S7"> 						   <Type>TEXTURE_CUSTOM_SPRITE</Type> 			  <File>MOD_ROOT/mod_vio_neuropsych_sym_icon_07.png</File> </GameDBAsset>
+	<GameDBAsset ID="ASSET_NEUROPSYCH_ICON_S7_SMALL"> 				   <Type>TEXTURE_CUSTOM_SPRITE</Type> 			  <File>MOD_ROOT/mod_vio_neuropsych_sym_icon_07_small.png</File> </GameDBAsset>
+
+	<!-- == Agnosia == -->
+	<GameDBAsset ID="ASSET_NEUROPSYCH_ICON_S8"> 						   <Type>TEXTURE_CUSTOM_SPRITE</Type> 			  <File>MOD_ROOT/mod_vio_neuropsych_sym_icon_08.png</File> </GameDBAsset>
+	<GameDBAsset ID="ASSET_NEUROPSYCH_ICON_S8_SMALL"> 				   <Type>TEXTURE_CUSTOM_SPRITE</Type> 			  <File>MOD_ROOT/mod_vio_neuropsych_sym_icon_08_small.png</File> </GameDBAsset>
+
+	<!-- == Apraxia == -->
+	<GameDBAsset ID="ASSET_NEUROPSYCH_ICON_S9"> 						   <Type>TEXTURE_CUSTOM_SPRITE</Type> 			  <File>MOD_ROOT/mod_vio_neuropsych_sym_icon_09.png</File> </GameDBAsset>			
+	<GameDBAsset ID="ASSET_NEUROPSYCH_ICON_S9_SMALL"> 				   <Type>TEXTURE_CUSTOM_SPRITE</Type> 			  <File>MOD_ROOT/mod_vio_neuropsych_sym_icon_09_small.png</File> </GameDBAsset>
+
+	<!-- == Paraphasias == -->
+	<GameDBAsset ID="ASSET_NEUROPSYCH_ICON_S10"> 					   <Type>TEXTURE_CUSTOM_SPRITE</Type> 			  <File>MOD_ROOT/mod_vio_neuropsych_sym_icon_10.png</File> </GameDBAsset>
+	<GameDBAsset ID="ASSET_NEUROPSYCH_ICON_S10_SMALL"> 				   <Type>TEXTURE_CUSTOM_SPRITE</Type> 			  <File>MOD_ROOT/mod_vio_neuropsych_sym_icon_10_small.png</File> </GameDBAsset>
+
+	<!-- == Labile affect == -->
+	<GameDBAsset ID="ASSET_NEUROPSYCH_ICON_S11"> 					   <Type>TEXTURE_CUSTOM_SPRITE</Type> 			  <File>MOD_ROOT/mod_vio_neuropsych_sym_icon_11.png</File> </GameDBAsset>
+	<GameDBAsset ID="ASSET_NEUROPSYCH_ICON_S11_SMALL"> 				   <Type>TEXTURE_CUSTOM_SPRITE</Type> 			  <File>MOD_ROOT/mod_vio_neuropsych_sym_icon_11_small.png</File> </GameDBAsset>
+
+	<!-- == Aggression == -->
+	<GameDBAsset ID="ASSET_NEUROPSYCH_ICON_S12"> 					   <Type>TEXTURE_CUSTOM_SPRITE</Type> 			  <File>MOD_ROOT/mod_vio_neuropsych_sym_icon_12.png</File> </GameDBAsset>
+	<GameDBAsset ID="ASSET_NEUROPSYCH_ICON_S12_SMALL"> 				   <Type>TEXTURE_CUSTOM_SPRITE</Type> 			  <File>MOD_ROOT/mod_vio_neuropsych_sym_icon_12_small.png</File> </GameDBAsset>
+
+	<!-- == Prions == --><!--
+	<GameDBAsset ID="ASSET_NEUROPSYCH_ICON_S13"> 					   <Type>TEXTURE_CUSTOM_SPRITE</Type> 			  <File>MOD_ROOT/mod_vio_neuropsych_sym_icon_13.png</File> </GameDBAsset>
+	<GameDBAsset ID="ASSET_NEUROPSYCH_ICON_S13_SMALL"> 				   <Type>TEXTURE_CUSTOM_SPRITE</Type> 			  <File>MOD_ROOT/mod_vio_neuropsych_sym_icon_13_small.png</File> </GameDBAsset>-->
+
+	<!-- == Hallucinations == --><!--
+	<GameDBAsset ID="ASSET_NEUROPSYCH_ICON_S14"> 					   <Type>TEXTURE_CUSTOM_SPRITE</Type> 			  <File>MOD_ROOT/mod_vio_neuropsych_sym_icon_14.png</File> </GameDBAsset>
+	<GameDBAsset ID="ASSET_NEUROPSYCH_ICON_S14_SMALL"> 				   <Type>TEXTURE_CUSTOM_SPRITE</Type> 			  <File>MOD_ROOT/mod_vio_neuropsych_sym_icon_14_small.png</File> </GameDBAsset>-->
+
+	<!-- == Myoclonus == --><!--
+	<GameDBAsset ID="ASSET_NEUROPSYCH_ICON_S15"> 					   <Type>TEXTURE_CUSTOM_SPRITE</Type> 			  <File>MOD_ROOT/mod_vio_neuropsych_sym_icon_15.png</File> </GameDBAsset>
+	<GameDBAsset ID="ASSET_NEUROPSYCH_ICON_S15_SMALL"> 				   <Type>TEXTURE_CUSTOM_SPRITE</Type> 			  <File>MOD_ROOT/mod_vio_neuropsych_sym_icon_15_small.png</File> </GameDBAsset>-->
+
+	<!-- == Paranoia == --><!--
+	<GameDBAsset ID="ASSET_NEUROPSYCH_ICON_S16"> 					   <Type>TEXTURE_CUSTOM_SPRITE</Type> 			  <File>MOD_ROOT/mod_vio_neuropsych_sym_icon_16.png</File> </GameDBAsset>
+	<GameDBAsset ID="ASSET_NEUROPSYCH_ICON_S16_SMALL"> 				   <Type>TEXTURE_CUSTOM_SPRITE</Type> 			  <File>MOD_ROOT/mod_vio_neuropsych_sym_icon_16_small.png</File> </GameDBAsset>-->
+
+	<!-- == Frequent Psychosis == --><!--
+	<GameDBAsset ID="ASSET_NEUROPSYCH_ICON_S17"> 					   <Type>TEXTURE_CUSTOM_SPRITE</Type> 			  <File>MOD_ROOT/mod_vio_neuropsych_sym_icon_17.png</File> </GameDBAsset>
+	<GameDBAsset ID="ASSET_NEUROPSYCH_ICON_S17_SMALL"> 				   <Type>TEXTURE_CUSTOM_SPRITE</Type> 			  <File>MOD_ROOT/mod_vio_neuropsych_sym_icon_17_small.png</File> </GameDBAsset>-->
+
+	<!-- == Ataxia == --><!--
+	<GameDBAsset ID="ASSET_NEUROPSYCH_ICON_S18"> 					   <Type>TEXTURE_CUSTOM_SPRITE</Type> 			  <File>MOD_ROOT/mod_vio_neuropsych_sym_icon_18.png</File> </GameDBAsset>
+	<GameDBAsset ID="ASSET_NEUROPSYCH_ICON_S18_SMALL"> 				   <Type>TEXTURE_CUSTOM_SPRITE</Type> 			  <File>MOD_ROOT/mod_vio_neuropsych_sym_icon_18_small.png</File> </GameDBAsset>-->
+
+	<!-- == Rigid Posture == --><!--
+	<GameDBAsset ID="ASSET_NEUROPSYCH_ICON_S19"> 					   <Type>TEXTURE_CUSTOM_SPRITE</Type> 			  <File>MOD_ROOT/mod_vio_neuropsych_sym_icon_19.png</File> </GameDBAsset>
+	<GameDBAsset ID="ASSET_NEUROPSYCH_ICON_S19_SMALL"> 				   <Type>TEXTURE_CUSTOM_SPRITE</Type> 			  <File>MOD_ROOT/mod_vio_neuropsych_sym_icon_19_small.png</File> </GameDBAsset>-->
+
+	<!-- == Fluctuations in attention or alertness == --><!--
+	<GameDBAsset ID="ASSET_NEUROPSYCH_ICON_S20"> 					   <Type>TEXTURE_CUSTOM_SPRITE</Type> 			  <File>MOD_ROOT/mod_vio_neuropsych_sym_icon_20.png</File> </GameDBAsset>
+	<GameDBAsset ID="ASSET_NEUROPSYCH_ICON_S20_SMALL"> 				   <Type>TEXTURE_CUSTOM_SPRITE</Type> 			  <File>MOD_ROOT/mod_vio_neuropsych_sym_icon_20_small.png</File> </GameDBAsset>-->
+
+	<!-- == Hypokinesia == --><!--
+	<GameDBAsset ID="ASSET_NEUROPSYCH_ICON_S21"> 					   <Type>TEXTURE_CUSTOM_SPRITE</Type> 			  <File>MOD_ROOT/mod_vio_neuropsych_sym_icon_21.png</File> </GameDBAsset>
+	<GameDBAsset ID="ASSET_NEUROPSYCH_ICON_S21_SMALL"> 				   <Type>TEXTURE_CUSTOM_SPRITE</Type> 			  <File>MOD_ROOT/mod_vio_neuropsych_sym_icon_21_small.png</File> </GameDBAsset>-->
+
+	<!-- == Apathy == --><!--
+	<GameDBAsset ID="ASSET_NEUROPSYCH_ICON_S22"> 					   <Type>TEXTURE_CUSTOM_SPRITE</Type> 			  <File>MOD_ROOT/mod_vio_neuropsych_sym_icon_22.png</File> </GameDBAsset>
+	<GameDBAsset ID="ASSET_NEUROPSYCH_ICON_S22_SMALL"> 				   <Type>TEXTURE_CUSTOM_SPRITE</Type> 			  <File>MOD_ROOT/mod_vio_neuropsych_sym_icon_22_small.png</File> </GameDBAsset>-->
+
+	<!-- == Impared Cognitive Function == --><!--
+	<GameDBAsset ID="ASSET_NEUROPSYCH_ICON_S23"> 					   <Type>TEXTURE_CUSTOM_SPRITE</Type> 			  <File>MOD_ROOT/mod_vio_neuropsych_sym_icon_23.png</File> </GameDBAsset>
+	<GameDBAsset ID="ASSET_NEUROPSYCH_ICON_S23_SMALL"> 				   <Type>TEXTURE_CUSTOM_SPRITE</Type> 			  <File>MOD_ROOT/mod_vio_neuropsych_sym_icon_23_small.png</File> </GameDBAsset>-->
+
+	<!-- == Hyposmia == --><!--
+	<GameDBAsset ID="ASSET_NEUROPSYCH_ICON_S24"> 					   <Type>TEXTURE_CUSTOM_SPRITE</Type> 			  <File>MOD_ROOT/mod_vio_neuropsych_sym_icon_24.png</File> </GameDBAsset>
+	<GameDBAsset ID="ASSET_NEUROPSYCH_ICON_S24_SMALL"> 				   <Type>TEXTURE_CUSTOM_SPRITE</Type> 			  <File>MOD_ROOT/mod_vio_neuropsych_sym_icon_24_small.png</File> </GameDBAsset>-->
+
+	<!-- == Dementia == --><!--
+	<GameDBAsset ID="ASSET_NEUROPSYCH_ICON_S25"> 					   <Type>TEXTURE_CUSTOM_SPRITE</Type> 			  <File>MOD_ROOT/mod_vio_neuropsych_sym_icon_25.png</File> </GameDBAsset>
+	<GameDBAsset ID="ASSET_NEUROPSYCH_ICON_S25_SMALL"> 				   <Type>TEXTURE_CUSTOM_SPRITE</Type> 			  <File>MOD_ROOT/mod_vio_neuropsych_sym_icon_25_small.png</File> </GameDBAsset>-->
+
+	<!-- == Dyskinesia == --><!--
+	<GameDBAsset ID="ASSET_NEUROPSYCH_ICON_S26"> 					   <Type>TEXTURE_CUSTOM_SPRITE</Type> 			  <File>MOD_ROOT/mod_vio_neuropsych_sym_icon_26.png</File> </GameDBAsset>
+	<GameDBAsset ID="ASSET_NEUROPSYCH_ICON_S26_SMALL"> 				   <Type>TEXTURE_CUSTOM_SPRITE</Type> 			  <File>MOD_ROOT/mod_vio_neuropsych_sym_icon_26_small.png</File> </GameDBAsset>-->
+
+	<!-- == Postural instability == --><!--
+	<GameDBAsset ID="ASSET_NEUROPSYCH_ICON_S27"> 					   <Type>TEXTURE_CUSTOM_SPRITE</Type> 			  <File>MOD_ROOT/mod_vio_neuropsych_sym_icon_27.png</File> </GameDBAsset>
+	<GameDBAsset ID="ASSET_NEUROPSYCH_ICON_S27_SMALL"> 				   <Type>TEXTURE_CUSTOM_SPRITE</Type> 			  <File>MOD_ROOT/mod_vio_neuropsych_sym_icon_27_small.png</File> </GameDBAsset>-->
+
+	<!-- == Executive dysfunction == --><!--
+	<GameDBAsset ID="ASSET_NEUROPSYCH_ICON_S28"> 					   <Type>TEXTURE_CUSTOM_SPRITE</Type> 			  <File>MOD_ROOT/mod_vio_neuropsych_sym_icon_28.png</File> </GameDBAsset>
+	<GameDBAsset ID="ASSET_NEUROPSYCH_ICON_S28_SMALL"> 				   <Type>TEXTURE_CUSTOM_SPRITE</Type> 			  <File>MOD_ROOT/mod_vio_neuropsych_sym_icon_28_small.png</File> </GameDBAsset>-->
+
+	<!-- == Bradyphrenia == --><!--
+	<GameDBAsset ID="ASSET_NEUROPSYCH_ICON_S29"> 					   <Type>TEXTURE_CUSTOM_SPRITE</Type> 			  <File>MOD_ROOT/mod_vio_neuropsych_sym_icon_29.png</File> </GameDBAsset>
+	<GameDBAsset ID="ASSET_NEUROPSYCH_ICON_S29_SMALL"> 				   <Type>TEXTURE_CUSTOM_SPRITE</Type> 			  <File>MOD_ROOT/mod_vio_neuropsych_sym_icon_29_small.png</File> </GameDBAsset>-->
+
+	<!-- == Involuntary sleep episodes == --><!--
+	<GameDBAsset ID="ASSET_NEUROPSYCH_ICON_S30"> 					   <Type>TEXTURE_CUSTOM_SPRITE</Type> 			  <File>MOD_ROOT/mod_vio_neuropsych_sym_icon_30.png</File> </GameDBAsset>
+	<GameDBAsset ID="ASSET_NEUROPSYCH_ICON_S30_SMALL"> 				   <Type>TEXTURE_CUSTOM_SPRITE</Type> 			  <File>MOD_ROOT/mod_vio_neuropsych_sym_icon_30_small.png</File> </GameDBAsset>-->
+
+	<!-- == Hypersomnia == --><!--
+	<GameDBAsset ID="ASSET_NEUROPSYCH_ICON_S31"> 					   <Type>TEXTURE_CUSTOM_SPRITE</Type> 			  <File>MOD_ROOT/mod_vio_neuropsych_sym_icon_31.png</File> </GameDBAsset>
+	<GameDBAsset ID="ASSET_NEUROPSYCH_ICON_S31_SMALL"> 				   <Type>TEXTURE_CUSTOM_SPRITE</Type> 			  <File>MOD_ROOT/mod_vio_neuropsych_sym_icon_31_small.png</File> </GameDBAsset>-->
+
+	<!-- == Flat affect == --><!--
+	<GameDBAsset ID="ASSET_NEUROPSYCH_ICON_S32"> 					   <Type>TEXTURE_CUSTOM_SPRITE</Type> 			  <File>MOD_ROOT/mod_vio_neuropsych_sym_icon_32.png</File> </GameDBAsset>
+	<GameDBAsset ID="ASSET_NEUROPSYCH_ICON_S32_SMALL"> 				   <Type>TEXTURE_CUSTOM_SPRITE</Type> 			  <File>MOD_ROOT/mod_vio_neuropsych_sym_icon_32_small.png</File> </GameDBAsset>-->
+
+	<!-- == Dysphagia == --><!--
+	<GameDBAsset ID="ASSET_NEUROPSYCH_ICON_S33"> 					   <Type>TEXTURE_CUSTOM_SPRITE</Type> 			  <File>MOD_ROOT/mod_vio_neuropsych_sym_icon_33.png</File> </GameDBAsset>
+	<GameDBAsset ID="ASSET_NEUROPSYCH_ICON_S33_SMALL"> 				   <Type>TEXTURE_CUSTOM_SPRITE</Type> 			  <File>MOD_ROOT/mod_vio_neuropsych_sym_icon_33_small.png</File> </GameDBAsset>-->
+
+	<!-- == Psychomotor Retardation == --><!--
+	<GameDBAsset ID="ASSET_NEUROPSYCH_ICON_S34"> 					   <Type>TEXTURE_CUSTOM_SPRITE</Type> 			  <File>MOD_ROOT/mod_vio_neuropsych_sym_icon_34.png</File> </GameDBAsset>
+	<GameDBAsset ID="ASSET_NEUROPSYCH_ICON_S34_SMALL"> 				   <Type>TEXTURE_CUSTOM_SPRITE</Type> 			  <File>MOD_ROOT/mod_vio_neuropsych_sym_icon_34_small.png</File> </GameDBAsset>-->
+	
+	<!-- == Dystonia == --><!--
+	<GameDBAsset ID="ASSET_NEUROPSYCH_ICON_S35"> 					   <Type>TEXTURE_CUSTOM_SPRITE</Type> 			  <File>MOD_ROOT/mod_vio_neuropsych_sym_icon_35.png</File> </GameDBAsset>
+	<GameDBAsset ID="ASSET_NEUROPSYCH_ICON_S35_SMALL"> 				   <Type>TEXTURE_CUSTOM_SPRITE</Type> 			  <File>MOD_ROOT/mod_vio_neuropsych_sym_icon_35_small.png</File> </GameDBAsset>-->
+
+	<!-- == Dysarthria == --><!--
+	<GameDBAsset ID="ASSET_NEUROPSYCH_ICON_S36"> 					   <Type>TEXTURE_CUSTOM_SPRITE</Type> 			  <File>MOD_ROOT/mod_vio_neuropsych_sym_icon_36.png</File> </GameDBAsset>
+	<GameDBAsset ID="ASSET_NEUROPSYCH_ICON_S36_SMALL"> 				   <Type>TEXTURE_CUSTOM_SPRITE</Type> 			  <File>MOD_ROOT/mod_vio_neuropsych_sym_icon_36_small.png</File> </GameDBAsset>-->
+
+	<!-- == Restlessness == --><!--
+	<GameDBAsset ID="ASSET_NEUROPSYCH_ICON_S37"> 					   <Type>TEXTURE_CUSTOM_SPRITE</Type> 			  <File>MOD_ROOT/mod_vio_neuropsych_sym_icon_37.png</File> </GameDBAsset>
+	<GameDBAsset ID="ASSET_NEUROPSYCH_ICON_S37_SMALL"> 				   <Type>TEXTURE_CUSTOM_SPRITE</Type> 			  <File>MOD_ROOT/mod_vio_neuropsych_sym_icon_37_small.png</File> </GameDBAsset>-->
+
+	<!-- == Disparate Inflection == --><!--
+	<GameDBAsset ID="ASSET_NEUROPSYCH_ICON_S38"> 					   <Type>TEXTURE_CUSTOM_SPRITE</Type> 			  <File>MOD_ROOT/mod_vio_neuropsych_sym_icon_38.png</File> </GameDBAsset>
+	<GameDBAsset ID="ASSET_NEUROPSYCH_ICON_S38_SMALL"> 				   <Type>TEXTURE_CUSTOM_SPRITE</Type> 			  <File>MOD_ROOT/mod_vio_neuropsych_sym_icon_38_small.png</File> </GameDBAsset>-->
+
+	<!-- == Repetative Behaviour == --><!--
+	<GameDBAsset ID="ASSET_NEUROPSYCH_ICON_S39"> 					   <Type>TEXTURE_CUSTOM_SPRITE</Type> 			  <File>MOD_ROOT/mod_vio_neuropsych_sym_icon_39.png</File> </GameDBAsset>
+	<GameDBAsset ID="ASSET_NEUROPSYCH_ICON_S39_SMALL"> 				   <Type>TEXTURE_CUSTOM_SPRITE</Type> 			  <File>MOD_ROOT/mod_vio_neuropsych_sym_icon_39_small.png</File> </GameDBAsset>-->
+
+	<!-- == Only participates in a restricted range of activities == --><!--
+	<GameDBAsset ID="ASSET_NEUROPSYCH_ICON_S40"> 					   <Type>TEXTURE_CUSTOM_SPRITE</Type> 			  <File>MOD_ROOT/mod_vio_neuropsych_sym_icon_40.png</File> </GameDBAsset>
+	<GameDBAsset ID="ASSET_NEUROPSYCH_ICON_S40_SMALL"> 				   <Type>TEXTURE_CUSTOM_SPRITE</Type> 			  <File>MOD_ROOT/mod_vio_neuropsych_sym_icon_40_small.png</File> </GameDBAsset>-->
+
+	<!-- == Intermittent Outbursts == --><!--
+	<GameDBAsset ID="ASSET_NEUROPSYCH_ICON_S41"> 					   <Type>TEXTURE_CUSTOM_SPRITE</Type> 			  <File>MOD_ROOT/mod_vio_neuropsych_sym_icon_41.png</File> </GameDBAsset>
+	<GameDBAsset ID="ASSET_NEUROPSYCH_ICON_S41_SMALL"> 				   <Type>TEXTURE_CUSTOM_SPRITE</Type> 			  <File>MOD_ROOT/mod_vio_neuropsych_sym_icon_41_small.png</File> </GameDBAsset>-->
+
+	<!-- == Exaggerated emotional response. == --><!--
+	<GameDBAsset ID="ASSET_NEUROPSYCH_ICON_S42"> 					   <Type>TEXTURE_CUSTOM_SPRITE</Type> 			  <File>MOD_ROOT/mod_vio_neuropsych_sym_icon_42.png</File> </GameDBAsset>
+	<GameDBAsset ID="ASSET_NEUROPSYCH_ICON_S42_SMALL"> 				   <Type>TEXTURE_CUSTOM_SPRITE</Type> 			  <File>MOD_ROOT/mod_vio_neuropsych_sym_icon_42_small.png</File> </GameDBAsset>-->
+
+	<!-- == Exceptional verbal skills. == --><!--
+	<GameDBAsset ID="ASSET_NEUROPSYCH_ICON_S43"> 					   <Type>TEXTURE_CUSTOM_SPRITE</Type> 			  <File>MOD_ROOT/mod_vio_neuropsych_sym_icon_43.png</File> </GameDBAsset>
+	<GameDBAsset ID="ASSET_NEUROPSYCH_ICON_S43_SMALL"> 				   <Type>TEXTURE_CUSTOM_SPRITE</Type> 			  <File>MOD_ROOT/mod_vio_neuropsych_sym_icon_43_small.png</File> </GameDBAsset>-->
+
+	<!-- == Lack of eye contact. == --><!--
+	<GameDBAsset ID="ASSET_NEUROPSYCH_ICON_S44"> 					   <Type>TEXTURE_CUSTOM_SPRITE</Type> 			  <File>MOD_ROOT/mod_vio_neuropsych_sym_icon_44.png</File> </GameDBAsset>
+	<GameDBAsset ID="ASSET_NEUROPSYCH_ICON_S44_SMALL"> 				   <Type>TEXTURE_CUSTOM_SPRITE</Type> 			  <File>MOD_ROOT/mod_vio_neuropsych_sym_icon_44_small.png</File> </GameDBAsset>-->
+
+	<!-- == Clumsiness == --><!--
+	<GameDBAsset ID="ASSET_NEUROPSYCH_ICON_S45"> 					   <Type>TEXTURE_CUSTOM_SPRITE</Type> 			  <File>MOD_ROOT/mod_vio_neuropsych_sym_icon_45.png</File> </GameDBAsset>
+	<GameDBAsset ID="ASSET_NEUROPSYCH_ICON_S45_SMALL"> 				   <Type>TEXTURE_CUSTOM_SPRITE</Type> 			  <File>MOD_ROOT/mod_vio_neuropsych_sym_icon_45_small.png</File> </GameDBAsset>-->
+
+	<!-- == Difficulty reading == --><!--
+	<GameDBAsset ID="ASSET_NEUROPSYCH_ICON_S46"> 					   <Type>TEXTURE_CUSTOM_SPRITE</Type> 			  <File>MOD_ROOT/mod_vio_neuropsych_sym_icon_46.png</File> </GameDBAsset>
+	<GameDBAsset ID="ASSET_NEUROPSYCH_ICON_S46_SMALL"> 				   <Type>TEXTURE_CUSTOM_SPRITE</Type> 			  <File>MOD_ROOT/mod_vio_neuropsych_sym_icon_46_small.png</File> </GameDBAsset>-->
+
+	<!-- == Spending an unusually long time completing reading or writing tasks == --><!--
+	<GameDBAsset ID="ASSET_NEUROPSYCH_ICON_S47"> 					   <Type>TEXTURE_CUSTOM_SPRITE</Type> 			  <File>MOD_ROOT/mod_vio_neuropsych_sym_icon_47.png</File> </GameDBAsset>
+	<GameDBAsset ID="ASSET_NEUROPSYCH_ICON_S47_SMALL"> 				   <Type>TEXTURE_CUSTOM_SPRITE</Type> 			  <File>MOD_ROOT/mod_vio_neuropsych_sym_icon_47_small.png</File> </GameDBAsset>-->
+
+	<!-- == Difficulty memorizing == --><!--
+	<GameDBAsset ID="ASSET_NEUROPSYCH_ICON_S48"> 					   <Type>TEXTURE_CUSTOM_SPRITE</Type> 			  <File>MOD_ROOT/mod_vio_neuropsych_sym_icon_48.png</File> </GameDBAsset>
+	<GameDBAsset ID="ASSET_NEUROPSYCH_ICON_S48_SMALL"> 				   <Type>TEXTURE_CUSTOM_SPRITE</Type> 			  <File>MOD_ROOT/mod_vio_neuropsych_sym_icon_48_small.png</File> </GameDBAsset>-->
+
+	<!-- == Mispronouncing names or words == --><!--
+	<GameDBAsset ID="ASSET_NEUROPSYCH_ICON_S49"> 					   <Type>TEXTURE_CUSTOM_SPRITE</Type> 			  <File>MOD_ROOT/mod_vio_neuropsych_sym_icon_49.png</File> </GameDBAsset>
+	<GameDBAsset ID="ASSET_NEUROPSYCH_ICON_S49_SMALL"> 				   <Type>TEXTURE_CUSTOM_SPRITE</Type> 			  <File>MOD_ROOT/mod_vio_neuropsych_sym_icon_49_small.png</File> </GameDBAsset>-->
+
+	<!-- == Saying random words and phrases == --><!--
+	<GameDBAsset ID="ASSET_NEUROPSYCH_ICON_S50"> 					   <Type>TEXTURE_CUSTOM_SPRITE</Type> 			  <File>MOD_ROOT/mod_vio_neuropsych_sym_icon_50.png</File> </GameDBAsset>
+	<GameDBAsset ID="ASSET_NEUROPSYCH_ICON_S50_SMALL"> 				   <Type>TEXTURE_CUSTOM_SPRITE</Type> 			  <File>MOD_ROOT/mod_vio_neuropsych_sym_icon_50_small.png</File> </GameDBAsset>-->
+
+	<!-- == Repeating a sound, word or phrase == --><!--
+	<GameDBAsset ID="ASSET_NEUROPSYCH_ICON_S51"> 					   <Type>TEXTURE_CUSTOM_SPRITE</Type> 			  <File>MOD_ROOT/mod_vio_neuropsych_sym_icon_51.png</File> </GameDBAsset>
+	<GameDBAsset ID="ASSET_NEUROPSYCH_ICON_S51_SMALL"> 				   <Type>TEXTURE_CUSTOM_SPRITE</Type> 			  <File>MOD_ROOT/mod_vio_neuropsych_sym_icon_51_small.png</File> </GameDBAsset>-->
+
+	<!-- == Premonitory sensation == --><!--
+	<GameDBAsset ID="ASSET_NEUROPSYCH_ICON_S52"> 					   <Type>TEXTURE_CUSTOM_SPRITE</Type> 			  <File>MOD_ROOT/mod_vio_neuropsych_sym_icon_52.png</File> </GameDBAsset>
+	<GameDBAsset ID="ASSET_NEUROPSYCH_ICON_S52_SMALL"> 				   <Type>TEXTURE_CUSTOM_SPRITE</Type> 			  <File>MOD_ROOT/mod_vio_neuropsych_sym_icon_52_small.png</File> </GameDBAsset>-->
+
+	<!-- == Poor Concentration == --><!--
+	<GameDBAsset ID="ASSET_NEUROPSYCH_ICON_S53"> 					   <Type>TEXTURE_CUSTOM_SPRITE</Type> 			  <File>MOD_ROOT/mod_vio_neuropsych_sym_icon_53.png</File> </GameDBAsset>
+	<GameDBAsset ID="ASSET_NEUROPSYCH_ICON_S53_SMALL"> 				   <Type>TEXTURE_CUSTOM_SPRITE</Type> 			  <File>MOD_ROOT/mod_vio_neuropsych_sym_icon_53_small.png</File> </GameDBAsset>-->
+
+	<!-- == Distractibility == --><!--
+	<GameDBAsset ID="ASSET_NEUROPSYCH_ICON_S54"> 					   <Type>TEXTURE_CUSTOM_SPRITE</Type> 			  <File>MOD_ROOT/mod_vio_neuropsych_sym_icon_54.png</File> </GameDBAsset>
+	<GameDBAsset ID="ASSET_NEUROPSYCH_ICON_S54_SMALL"> 				   <Type>TEXTURE_CUSTOM_SPRITE</Type> 			  <File>MOD_ROOT/mod_vio_neuropsych_sym_icon_54_small.png</File> </GameDBAsset>-->
+
+	<!-- == Pressured Speech == --><!--
+	<GameDBAsset ID="ASSET_NEUROPSYCH_ICON_S55"> 					   <Type>TEXTURE_CUSTOM_SPRITE</Type> 			  <File>MOD_ROOT/mod_vio_neuropsych_sym_icon_55.png</File> </GameDBAsset>
+	<GameDBAsset ID="ASSET_NEUROPSYCH_ICON_S55_SMALL"> 				   <Type>TEXTURE_CUSTOM_SPRITE</Type> 			  <File>MOD_ROOT/mod_vio_neuropsych_sym_icon_55_small.png</File> </GameDBAsset>-->
+
+	<!-- == Impatience == --><!--
+	<GameDBAsset ID="ASSET_NEUROPSYCH_ICON_S56"> 					   <Type>TEXTURE_CUSTOM_SPRITE</Type> 			  <File>MOD_ROOT/mod_vio_neuropsych_sym_icon_56.png</File> </GameDBAsset>
+	<GameDBAsset ID="ASSET_NEUROPSYCH_ICON_S56_SMALL"> 				   <Type>TEXTURE_CUSTOM_SPRITE</Type> 			  <File>MOD_ROOT/mod_vio_neuropsych_sym_icon_56_small.png</File> </GameDBAsset>-->
+
+	<!-- == Difficulty processing information quickly == --><!--
+	<GameDBAsset ID="ASSET_NEUROPSYCH_ICON_S57"> 					   <Type>TEXTURE_CUSTOM_SPRITE</Type> 			  <File>MOD_ROOT/mod_vio_neuropsych_sym_icon_57.png</File> </GameDBAsset>
+	<GameDBAsset ID="ASSET_NEUROPSYCH_ICON_S57_SMALL"> 				   <Type>TEXTURE_CUSTOM_SPRITE</Type> 			  <File>MOD_ROOT/mod_vio_neuropsych_sym_icon_57_small.png</File> </GameDBAsset>-->
+
+	<!-- == Low Self-Esteem == --><!--
+	<GameDBAsset ID="ASSET_NEUROPSYCH_ICON_S58"> 					   <Type>TEXTURE_CUSTOM_SPRITE</Type> 			  <File>MOD_ROOT/mod_vio_neuropsych_sym_icon_58.png</File> </GameDBAsset>
+	<GameDBAsset ID="ASSET_NEUROPSYCH_ICON_S58_SMALL"> 				   <Type>TEXTURE_CUSTOM_SPRITE</Type> 			  <File>MOD_ROOT/mod_vio_neuropsych_sym_icon_58_small.png</File> </GameDBAsset>-->
+
+
+	
+
+<!-- ================================================== Symptoms Main ================================================== -->
+
+	<!-- Sundowning  -->
+	<GameDBAsset ID="ASSET_NEUROPSYCH_ICON_SM1"> 					   <Type>TEXTURE_CUSTOM_SPRITE</Type> 			  <File>MOD_ROOT/mod_vio_neuropsych_sym_main_icon_01.png</File> </GameDBAsset>
+	<GameDBAsset ID="ASSET_NEUROPSYCH_ICON_SM1_SMALL"> 				   <Type>TEXTURE_CUSTOM_SPRITE</Type> 			  <File>MOD_ROOT/mod_vio_neuropsych_sym_main_icon_01_small.png</File> </GameDBAsset>
+
+	<!-- Rapidly progressive dementia  --><!--
+	<GameDBAsset ID="ASSET_NEUROPSYCH_ICON_SM2"> 					   <Type>TEXTURE_CUSTOM_SPRITE</Type> 			  <File>MOD_ROOT/mod_vio_neuropsych_sym_main_icon_02.png</File> </GameDBAsset>
+	<GameDBAsset ID="ASSET_NEUROPSYCH_ICON_SM2_SMALL"> 				   <Type>TEXTURE_CUSTOM_SPRITE</Type> 			  <File>MOD_ROOT/mod_vio_neuropsych_sym_main_icon_02_small.png</File> </GameDBAsset>-->
+
+	<!-- REM sleep behavior disorder  --><!--
+	<GameDBAsset ID="ASSET_NEUROPSYCH_ICON_SM3"> 					   <Type>TEXTURE_CUSTOM_SPRITE</Type> 			  <File>MOD_ROOT/mod_vio_neuropsych_sym_main_icon_03.png</File> </GameDBAsset>
+	<GameDBAsset ID="ASSET_NEUROPSYCH_ICON_SM3_SMALL"> 				   <Type>TEXTURE_CUSTOM_SPRITE</Type> 			  <File>MOD_ROOT/mod_vio_neuropsych_sym_main_icon_03_small.png</File> </GameDBAsset>-->
+
+	<!-- Tremors  --><!--
+	<GameDBAsset ID="ASSET_NEUROPSYCH_ICON_SM4"> 					   <Type>TEXTURE_CUSTOM_SPRITE</Type> 			  <File>MOD_ROOT/mod_vio_neuropsych_sym_main_icon_04.png</File> </GameDBAsset>
+	<GameDBAsset ID="ASSET_NEUROPSYCH_ICON_SM4_SMALL"> 				   <Type>TEXTURE_CUSTOM_SPRITE</Type> 			  <File>MOD_ROOT/mod_vio_neuropsych_sym_main_icon_04_small.png</File> </GameDBAsset>-->
+
+	<!-- Chorea  --><!--
+	<GameDBAsset ID="ASSET_NEUROPSYCH_ICON_SM5"> 					   <Type>TEXTURE_CUSTOM_SPRITE</Type> 			  <File>MOD_ROOT/mod_vio_neuropsych_sym_main_icon_05.png</File> </GameDBAsset>
+	<GameDBAsset ID="ASSET_NEUROPSYCH_ICON_SM5_SMALL"> 				   <Type>TEXTURE_CUSTOM_SPRITE</Type> 			  <File>MOD_ROOT/mod_vio_neuropsych_sym_main_icon_05_small.png</File> </GameDBAsset>-->
+
+	<!-- Trouble interpreting facial expressions, body language, or social cues  --><!--
+	<GameDBAsset ID="ASSET_NEUROPSYCH_ICON_SM6"> 					   <Type>TEXTURE_CUSTOM_SPRITE</Type> 			  <File>MOD_ROOT/mod_vio_neuropsych_sym_main_icon_06.png</File> </GameDBAsset>
+	<GameDBAsset ID="ASSET_NEUROPSYCH_ICON_SM6_SMALL"> 				   <Type>TEXTURE_CUSTOM_SPRITE</Type> 			  <File>MOD_ROOT/mod_vio_neuropsych_sym_main_icon_06_small.png</File> </GameDBAsset>-->
+
+	<!-- Abnormal response to sensory stimuli.  --><!--
+	<GameDBAsset ID="ASSET_NEUROPSYCH_ICON_SM7"> 					   <Type>TEXTURE_CUSTOM_SPRITE</Type> 			  <File>MOD_ROOT/mod_vio_neuropsych_sym_main_icon_07.png</File> </GameDBAsset>
+	<GameDBAsset ID="ASSET_NEUROPSYCH_ICON_SM7_SMALL"> 				   <Type>TEXTURE_CUSTOM_SPRITE</Type> 			  <File>MOD_ROOT/mod_vio_neuropsych_sym_main_icon_07_small.png</File> </GameDBAsset>-->
+
+	<!-- Slow and labor-intensive reading and writing  --><!--
+	<GameDBAsset ID="ASSET_NEUROPSYCH_ICON_SM8"> 					   <Type>TEXTURE_CUSTOM_SPRITE</Type> 			  <File>MOD_ROOT/mod_vio_neuropsych_sym_main_icon_08.png</File> </GameDBAsset>
+	<GameDBAsset ID="ASSET_NEUROPSYCH_ICON_SM8_SMALL"> 				   <Type>TEXTURE_CUSTOM_SPRITE</Type> 			  <File>MOD_ROOT/mod_vio_neuropsych_sym_main_icon_08_small.png</File> </GameDBAsset>-->
+
+	<!-- Tics  --><!--
+	<GameDBAsset ID="ASSET_NEUROPSYCH_ICON_SM9"> 					   <Type>TEXTURE_CUSTOM_SPRITE</Type> 			  <File>MOD_ROOT/mod_vio_neuropsych_sym_main_icon_09.png</File> </GameDBAsset>
+	<GameDBAsset ID="ASSET_NEUROPSYCH_ICON_SM9_SMALL"> 				   <Type>TEXTURE_CUSTOM_SPRITE</Type> 			  <File>MOD_ROOT/mod_vio_neuropsych_sym_main_icon_09_small.png</File> </GameDBAsset>-->
+
+	<!-- Hyperfocus  --><!--
+	<GameDBAsset ID="ASSET_NEUROPSYCH_ICON_SM10"> 					   <Type>TEXTURE_CUSTOM_SPRITE</Type> 			  <File>MOD_ROOT/mod_vio_neuropsych_sym_main_icon_10.png</File> </GameDBAsset>
+	<GameDBAsset ID="ASSET_NEUROPSYCH_ICON_SM10_SMALL"> 				   <Type>TEXTURE_CUSTOM_SPRITE</Type> 			  <File>MOD_ROOT/mod_vio_neuropsych_sym_main_icon_10_small.png</File> </GameDBAsset>-->
+
+<!-- ================================================== Treatments ================================================== -->
+
+	<!-- Rivastigmine  --><!--
+	<GameDBAsset ID="ASSET_NEUROPSYCH_ICON_TR1"> 					   	<Type>TEXTURE_CUSTOM_SPRITE</Type> 			  <File>MOD_ROOT/mod_vio_neuropsych_tr_icon_01.png</File> </GameDBAsset>
+	<GameDBAsset ID="ASSET_NEUROPSYCH_ICON_TR1_SMALL">					<Type>TEXTURE_CUSTOM_SPRITE</Type> 			  <File>MOD_ROOT/mod_vio_neuropsych_tr_icon_01_small.png</File> </GameDBAsset>-->
+
+	<!-- Memantine  -->  
+	<GameDBAsset ID="ASSET_NEUROPSYCH_ICON_TR2"> 					   	<Type>TEXTURE_CUSTOM_SPRITE</Type> 			  <File>MOD_ROOT/mod_vio_neuropsych_tr_icon_02.png</File> </GameDBAsset>
+	<GameDBAsset ID="ASSET_NEUROPSYCH_ICON_TR2_SMALL">					<Type>TEXTURE_CUSTOM_SPRITE</Type> 			  <File>MOD_ROOT/mod_vio_neuropsych_tr_icon_02_small.png</File> </GameDBAsset>
+
+	<!--  Supportive Psychotherapy -->
+	<GameDBAsset ID="ASSET_NEUROPSYCH_ICON_TR3"> 					   	<Type>TEXTURE_CUSTOM_SPRITE</Type> 			  <File>MOD_ROOT/mod_vio_neuropsych_tr_icon_03.png</File> </GameDBAsset>
+	<GameDBAsset ID="ASSET_NEUROPSYCH_ICON_TR3_SMALL">					<Type>TEXTURE_CUSTOM_SPRITE</Type> 			  <File>MOD_ROOT/mod_vio_neuropsych_tr_icon_03_small.png</File> </GameDBAsset>
+
+	<!-- Lifestyle modifications --><!--
+	<GameDBAsset ID="ASSET_NEUROPSYCH_ICON_TR4"> 					   	<Type>TEXTURE_CUSTOM_SPRITE</Type> 			  <File>MOD_ROOT/mod_vio_neuropsych_tr_icon_04.png</File> </GameDBAsset>
+	<GameDBAsset ID="ASSET_NEUROPSYCH_ICON_TR4_SMALL">					<Type>TEXTURE_CUSTOM_SPRITE</Type> 			  <File>MOD_ROOT/mod_vio_neuropsych_tr_icon_04_small.png</File> </GameDBAsset>-->
+
+	<!-- Palliative care -->
+	<GameDBAsset ID="ASSET_NEUROPSYCH_ICON_TR5"> 					   	<Type>TEXTURE_CUSTOM_SPRITE</Type> 			  <File>MOD_ROOT/mod_vio_neuropsych_tr_icon_05.png</File> </GameDBAsset>
+	<GameDBAsset ID="ASSET_NEUROPSYCH_ICON_TR5_SMALL">					<Type>TEXTURE_CUSTOM_SPRITE</Type> 			  <File>MOD_ROOT/mod_vio_neuropsych_tr_icon_05_small.png</File> </GameDBAsset>
+
+	<!-- Sedatives -->  
+	<GameDBAsset ID="ASSET_NEUROPSYCH_ICON_TR6"> 					   	<Type>TEXTURE_CUSTOM_SPRITE</Type> 			  <File>MOD_ROOT/mod_vio_neuropsych_tr_icon_06.png</File> </GameDBAsset>
+	<GameDBAsset ID="ASSET_NEUROPSYCH_ICON_TR6_SMALL">					<Type>TEXTURE_CUSTOM_SPRITE</Type> 			  <File>MOD_ROOT/mod_vio_neuropsych_tr_icon_06_small.png</File> </GameDBAsset>
+
+	<!--  Clonazepam --><!--
+	<GameDBAsset ID="ASSET_NEUROPSYCH_ICON_TR7"> 					   	<Type>TEXTURE_CUSTOM_SPRITE</Type> 			  <File>MOD_ROOT/mod_vio_neuropsych_tr_icon_07.png</File> </GameDBAsset>
+	<GameDBAsset ID="ASSET_NEUROPSYCH_ICON_TR7_SMALL">					<Type>TEXTURE_CUSTOM_SPRITE</Type> 			  <File>MOD_ROOT/mod_vio_neuropsych_tr_icon_07_small.png</File> </GameDBAsset>-->
+
+	<!--  Hydrocodone --><!--
+	<GameDBAsset ID="ASSET_NEUROPSYCH_ICON_TR8"> 					   	<Type>TEXTURE_CUSTOM_SPRITE</Type> 			  <File>MOD_ROOT/mod_vio_neuropsych_tr_icon_08.png</File> </GameDBAsset>
+	<GameDBAsset ID="ASSET_NEUROPSYCH_ICON_TR8_SMALL">					<Type>TEXTURE_CUSTOM_SPRITE</Type> 			  <File>MOD_ROOT/mod_vio_neuropsych_tr_icon_08_small.png</File> </GameDBAsset>-->
+
+	<!--  Methylphenidate --><!--
+	<GameDBAsset ID="ASSET_NEUROPSYCH_ICON_TR9"> 					   	<Type>TEXTURE_CUSTOM_SPRITE</Type> 			  <File>MOD_ROOT/mod_vio_neuropsych_tr_icon_09.png</File> </GameDBAsset>
+	<GameDBAsset ID="ASSET_NEUROPSYCH_ICON_TR9_SMALL">					<Type>TEXTURE_CUSTOM_SPRITE</Type> 			  <File>MOD_ROOT/mod_vio_neuropsych_tr_icon_09_small.png</File> </GameDBAsset>-->
+
+	<!-- Quetiapine --><!--
+	<GameDBAsset ID="ASSET_NEUROPSYCH_ICON_TR10"> 					   	<Type>TEXTURE_CUSTOM_SPRITE</Type> 			  <File>MOD_ROOT/mod_vio_neuropsych_tr_icon_10.png</File> </GameDBAsset>
+	<GameDBAsset ID="ASSET_NEUROPSYCH_ICON_TR10_SMALL">					<Type>TEXTURE_CUSTOM_SPRITE</Type> 			  <File>MOD_ROOT/mod_vio_neuropsych_tr_icon_10_small.png</File> </GameDBAsset>-->
+
+	<!-- Levodopa --><!--
+	<GameDBAsset ID="ASSET_NEUROPSYCH_ICON_TR11"> 					   	<Type>TEXTURE_CUSTOM_SPRITE</Type> 			  <File>MOD_ROOT/mod_vio_neuropsych_tr_icon_11.png</File> </GameDBAsset>
+	<GameDBAsset ID="ASSET_NEUROPSYCH_ICON_TR11_SMALL">					<Type>TEXTURE_CUSTOM_SPRITE</Type> 			  <File>MOD_ROOT/mod_vio_neuropsych_tr_icon_11_small.png</File> </GameDBAsset>-->
+
+	<!-- Opicapone  -->  <!--
+	<GameDBAsset ID="ASSET_NEUROPSYCH_ICON_TR12"> 					   	<Type>TEXTURE_CUSTOM_SPRITE</Type> 			  <File>MOD_ROOT/mod_vio_neuropsych_tr_icon_12.png</File> </GameDBAsset>
+	<GameDBAsset ID="ASSET_NEUROPSYCH_ICON_TR12_SMALL">					<Type>TEXTURE_CUSTOM_SPRITE</Type> 			  <File>MOD_ROOT/mod_vio_neuropsych_tr_icon_12_small.png</File> </GameDBAsset>-->
+
+	<!--  Bromocriptine --><!--
+	<GameDBAsset ID="ASSET_NEUROPSYCH_ICON_TR13"> 					   	<Type>TEXTURE_CUSTOM_SPRITE</Type> 			  <File>MOD_ROOT/mod_vio_neuropsych_tr_icon_13.png</File> </GameDBAsset>
+	<GameDBAsset ID="ASSET_NEUROPSYCH_ICON_TR13_SMALL">					<Type>TEXTURE_CUSTOM_SPRITE</Type> 			  <File>MOD_ROOT/mod_vio_neuropsych_tr_icon_13_small.png</File> </GameDBAsset>-->
+
+	<!-- Safinamide --><!--
+	<GameDBAsset ID="ASSET_NEUROPSYCH_ICON_TR14"> 					   	<Type>TEXTURE_CUSTOM_SPRITE</Type> 			  <File>MOD_ROOT/mod_vio_neuropsych_tr_icon_14.png</File> </GameDBAsset>
+	<GameDBAsset ID="ASSET_NEUROPSYCH_ICON_TR14_SMALL">					<Type>TEXTURE_CUSTOM_SPRITE</Type> 			  <File>MOD_ROOT/mod_vio_neuropsych_tr_icon_14_small.png</File> </GameDBAsset>-->
+
+	<!-- Amantadine --><!--
+	<GameDBAsset ID="ASSET_NEUROPSYCH_ICON_TR15"> 					   	<Type>TEXTURE_CUSTOM_SPRITE</Type> 			  <File>MOD_ROOT/mod_vio_neuropsych_tr_icon_15.png</File> </GameDBAsset>
+	<GameDBAsset ID="ASSET_NEUROPSYCH_ICON_TR15_SMALL">					<Type>TEXTURE_CUSTOM_SPRITE</Type> 			  <File>MOD_ROOT/mod_vio_neuropsych_tr_icon_15_small.png</File> </GameDBAsset>-->
+
+	<!-- Modafinil -->  <!--
+	<GameDBAsset ID="ASSET_NEUROPSYCH_ICON_TR16"> 					   	<Type>TEXTURE_CUSTOM_SPRITE</Type> 			  <File>MOD_ROOT/mod_vio_neuropsych_tr_icon_16.png</File> </GameDBAsset>
+	<GameDBAsset ID="ASSET_NEUROPSYCH_ICON_TR16_SMALL">					<Type>TEXTURE_CUSTOM_SPRITE</Type> 			  <File>MOD_ROOT/mod_vio_neuropsych_tr_icon_16_small.png</File> </GameDBAsset>-->
+
+	<!-- Physical therapy --><!--
+	<GameDBAsset ID="ASSET_NEUROPSYCH_ICON_TR17"> 					   	<Type>TEXTURE_CUSTOM_SPRITE</Type> 			  <File>MOD_ROOT/mod_vio_neuropsych_tr_icon_17.png</File> </GameDBAsset>
+	<GameDBAsset ID="ASSET_NEUROPSYCH_ICON_TR17_SMALL">					<Type>TEXTURE_CUSTOM_SPRITE</Type> 			  <File>MOD_ROOT/mod_vio_neuropsych_tr_icon_17_small.png</File> </GameDBAsset>-->
+
+	<!-- Tetrabenazine --><!--
+	<GameDBAsset ID="ASSET_NEUROPSYCH_ICON_TR18"> 					   	<Type>TEXTURE_CUSTOM_SPRITE</Type> 			  <File>MOD_ROOT/mod_vio_neuropsych_tr_icon_18.png</File> </GameDBAsset>
+	<GameDBAsset ID="ASSET_NEUROPSYCH_ICON_TR18_SMALL">					<Type>TEXTURE_CUSTOM_SPRITE</Type> 			  <File>MOD_ROOT/mod_vio_neuropsych_tr_icon_18_small.png</File> </GameDBAsset>-->
+
+	<!-- Valproic acid --><!--
+	<GameDBAsset ID="ASSET_NEUROPSYCH_ICON_TR19"> 					   	<Type>TEXTURE_CUSTOM_SPRITE</Type> 			  <File>MOD_ROOT/mod_vio_neuropsych_tr_icon_19.png</File> </GameDBAsset>
+	<GameDBAsset ID="ASSET_NEUROPSYCH_ICON_TR19_SMALL">					<Type>TEXTURE_CUSTOM_SPRITE</Type> 			  <File>MOD_ROOT/mod_vio_neuropsych_tr_icon_19_small.png</File> </GameDBAsset>-->
+
+	<!-- Long-term Supportive Psychotherapy --><!--
+	<GameDBAsset ID="ASSET_NEUROPSYCH_ICON_TR20"> 					   	<Type>TEXTURE_CUSTOM_SPRITE</Type> 			  <File>MOD_ROOT/mod_vio_neuropsych_tr_icon_20.png</File> </GameDBAsset>
+	<GameDBAsset ID="ASSET_NEUROPSYCH_ICON_TR20_SMALL">					<Type>TEXTURE_CUSTOM_SPRITE</Type> 			  <File>MOD_ROOT/mod_vio_neuropsych_tr_icon_20_small.png</File> </GameDBAsset>-->
+
+	<!-- Intensive, sustained special education program --><!--
+	<GameDBAsset ID="ASSET_NEUROPSYCH_ICON_TR21"> 					   	<Type>TEXTURE_CUSTOM_SPRITE</Type> 			  <File>MOD_ROOT/mod_vio_neuropsych_tr_icon_21.png</File> </GameDBAsset>
+	<GameDBAsset ID="ASSET_NEUROPSYCH_ICON_TR21_SMALL">					<Type>TEXTURE_CUSTOM_SPRITE</Type> 			  <File>MOD_ROOT/mod_vio_neuropsych_tr_icon_21_small.png</File> </GameDBAsset>-->
+
+	<!-- Behavioral therapy --><!--
+	<GameDBAsset ID="ASSET_NEUROPSYCH_ICON_TR22"> 					   	<Type>TEXTURE_CUSTOM_SPRITE</Type> 			  <File>MOD_ROOT/mod_vio_neuropsych_tr_icon_22.png</File> </GameDBAsset>
+	<GameDBAsset ID="ASSET_NEUROPSYCH_ICON_TR22_SMALL">					<Type>TEXTURE_CUSTOM_SPRITE</Type> 			  <File>MOD_ROOT/mod_vio_neuropsych_tr_icon_22_small.png</File> </GameDBAsset>-->
+
+	<!-- Speech And Language Therapy -->
+	<GameDBAsset ID="ASSET_NEUROPSYCH_ICON_TR23"> 					   	<Type>TEXTURE_CUSTOM_SPRITE</Type> 			  <File>MOD_ROOT/mod_vio_neuropsych_tr_icon_23.png</File> </GameDBAsset>
+	<GameDBAsset ID="ASSET_NEUROPSYCH_ICON_TR23_SMALL">					<Type>TEXTURE_CUSTOM_SPRITE</Type> 			  <File>MOD_ROOT/mod_vio_neuropsych_tr_icon_23_small.png</File> </GameDBAsset>
+
+	<!-- Nuedexta -->  
+	<GameDBAsset ID="ASSET_NEUROPSYCH_ICON_TR24"> 					   	<Type>TEXTURE_CUSTOM_SPRITE</Type> 			  <File>MOD_ROOT/mod_vio_neuropsych_tr_icon_24.png</File> </GameDBAsset>
+	<GameDBAsset ID="ASSET_NEUROPSYCH_ICON_TR24_SMALL">					<Type>TEXTURE_CUSTOM_SPRITE</Type> 			  <File>MOD_ROOT/mod_vio_neuropsych_tr_icon_24_small.png</File> </GameDBAsset>
+
+<!-- ================================================== SURGERY TREATMENTS ================================================== -->
+
+<!--  Deep brain stimulation (DBS) --><!--
+	<GameDBAsset ID="ASSET_NEUROPSYCH_ICON_SUR1"> 					   	<Type>TEXTURE_CUSTOM_SPRITE</Type> 			  <File>MOD_ROOT/mod_vio_neuropsych_sur_icon_1.png</File> </GameDBAsset>
+	<GameDBAsset ID="ASSET_NEUROPSYCH_ICON_SUR1_SMALL">					<Type>TEXTURE_CUSTOM_SPRITE</Type> 			  <File>MOD_ROOT/mod_vio_neuropsych_sur_icon_1_small.png</File> </GameDBAsset>-->
+
+</Database>

@@ -1,0 +1,160 @@
+﻿<Database>
+    <GameDBStringTable ID="LOC_EN_ADDON_NEUROPSYCH_SYMPTOMS">
+
+        <LanguageCode>en</LanguageCode>
+        <LanguageNameLocalized>English</LanguageNameLocalized>
+
+        <Contributors>
+			<Name>Violet Unicorn</Name>
+        </Contributors>
+
+        <LocalizedStrings>
+
+			<!-- ================================================== NEUROPSYCHOLOGY DEPARTMENT ================================================== -->
+
+			<!-- == MOOD SWINGS == -->
+			<GameDBLocalizedString>	
+			<LocID>SYM_VIO_MOOD_SWINGS</LocID>							
+			<Text>Mood Swings</Text>	
+			</GameDBLocalizedString>
+			
+			<GameDBLocalizedString>	
+			<LocID>SYM_VIO_MOOD_SWINGS_DESCRIPTION</LocID>				
+			<Text>A mood swing is an extreme or rapid change in mood. Such mood swings can play a positive part in promoting problem solving and in producing flexible forward planning. However an indicator of an underlying disease when feelings become excessive, all-consuming and interfere with daily living.</Text>	
+			</GameDBLocalizedString>
+
+			<!-- == AVOLITION == -->
+			<GameDBLocalizedString>	
+			<LocID>SYM_VIO_AVOLITION</LocID>						
+			<Text>Avolition</Text>	
+			</GameDBLocalizedString>
+			
+			<GameDBLocalizedString>
+			<LocID>SYM_VIO_AVOLITION_DESCRIPTION</LocID>			
+			<Text>Avolition is a term used to describe the lack of motivation or ability to do tasks or activities that have an end goal, such as paying bills or attending a school function. Avolition occurs most commonly in schizophrenia, depression, and bipolar disorder.</Text>	
+			</GameDBLocalizedString>
+
+			<!-- == SHORT TERM MEMORY LOSS == -->
+			<GameDBLocalizedString>	
+			<LocID>SYM_VIO_SHORT_TERM_MEMORY_LOSS</LocID>							
+			<Text>Short Term Memory Loss</Text>	
+			</GameDBLocalizedString>
+			
+			<GameDBLocalizedString>	
+			<LocID>SYM_VIO_SHORT_TERM_MEMORY_LOSS_DESCRIPTION</LocID>				
+			<Text>Short-term memory loss is when you forget things you heard, saw, or did recently. It's a normal part of getting older for many people. But it can also be a sign of a deeper problem, such as dementia, a brain injury, or a mental health issue.</Text>
+			</GameDBLocalizedString>			
+
+			<!-- == MEMORY GAPS == -->
+			<GameDBLocalizedString>	
+			<LocID>SYM_VIO_MEMORY_GAPS</LocID>							
+			<Text>Memory Gaps</Text>	
+			</GameDBLocalizedString>
+			
+			<GameDBLocalizedString>	
+			<LocID>SYM_VIO_MEMORY_GAPS_DESCRIPTION</LocID>				
+			<Text>Memory Gaps is unusual forgetfulness. You may not be able to remember new events, recall one or more memories of the past, or both. The memory gaps may be for a short time and then resolve (transient). Or, it may not go away, and, depending on the cause, it can get worse over time.</Text>
+			</GameDBLocalizedString>
+
+			<!-- == APHASIA == -->
+			<GameDBLocalizedString>	
+			<LocID>SYM_VIO_APHASIA</LocID>							
+			<Text>Aphasia</Text>	
+			</GameDBLocalizedString>
+			
+			<GameDBLocalizedString>	
+			<LocID>SYM_VIO_APHASIA_DESCRIPTION</LocID>				
+			<Text>Aphasia is an impairment of language, affecting the production or comprehension of speech and the ability to read or write. Aphasia can occur suddenly after a stroke or head injury or develop slowly from a growing brain tumour or disease.</Text>	
+			</GameDBLocalizedString>
+
+			<!-- == DISORIENTATION == -->
+			<GameDBLocalizedString>	
+			<LocID>SYM_VIO_DISORIENTATION</LocID>					
+			<Text>Disorientation</Text>	
+			</GameDBLocalizedString>
+			
+			<GameDBLocalizedString>	
+			<LocID>SYM_VIO_DISORIENTATION_DESCRIPTION</LocID>		
+			<Text>Disorientation is an altered mental state. A person who's disoriented may not know their location and identity, or the time and date.</Text>	
+			</GameDBLocalizedString>
+
+			<!-- == INAPPROPRIATE BEHAVIOUR == -->
+			<GameDBLocalizedString>	
+			<LocID>SYM_VIO_INAPPROPRIATE_BEHAVIOUR</LocID>				
+			<Text>Inappropriate Behaviour</Text>	
+			</GameDBLocalizedString>
+			
+			<GameDBLocalizedString>	
+			<LocID>SYM_VIO_INAPPROPRIATE_BEHAVIOUR_DESCRIPTION</LocID>	
+			<Text>Inappropriate behavior means conduct that is unwarranted and is reasonably interpreted to be demeaning or offensive. Persistent, repeated inappropriate behavior can become a form of harassment and thereby become disruptive.</Text>	
+			</GameDBLocalizedString>
+
+			<!-- == AGNOSIA == -->
+			<GameDBLocalizedString>	
+			<LocID>SYM_VIO_AGNOSIA</LocID>						
+			<Text>Agnosia</Text>	
+			</GameDBLocalizedString>
+			
+			<GameDBLocalizedString>	
+			<LocID>SYM_VIO_AGNOSIA_DESCRIPTION</LocID>			
+			<Text>Agnosia is the loss of the ability to recognize objects, faces, voices, or places. It's a rare disorder involving one (or more) of the senses. Agnosia usually affects only a single information pathway in the brain.</Text>	
+			</GameDBLocalizedString>
+
+			<!-- == APRAXIA == -->
+			<GameDBLocalizedString>	
+			<LocID>SYM_VIO_APRAXIA</LocID>						
+			<Text>Apraxia</Text>	
+			</GameDBLocalizedString>
+			
+			<GameDBLocalizedString>	
+			<LocID>SYM_VIO_APRAXIA_DESCRIPTION</LocID>			
+			<Text>Apraxia is difficulty with skilled movements even when a person has the ability and desire to do them. Apraxia is caused by brain disease or damage. The brain is unable to make and deliver correct movement instructions to the body. One type of apraxia affects speech. The brain struggles with lip, jaw and tongue movements. Other types affect the accuracy of limb movements, response to verbal commands and facial movements, such as winking.</Text>	
+			</GameDBLocalizedString>
+
+			<!-- == PARAPHASIAS == -->
+			<GameDBLocalizedString>	
+			<LocID>SYM_VIO_PARAPHASIAS</LocID>						
+			<Text>Paraphasias</Text>	
+			</GameDBLocalizedString>
+			
+			<GameDBLocalizedString>	
+			<LocID>SYM_VIO_PARAPHASIAS_DESCRIPTION</LocID>			
+			<Text>Paraphasia is a type of language output error commonly associated with aphasia, and these errors can be semantic, in which the meaning of the word is related to that of the intended word.</Text>	
+			</GameDBLocalizedString>
+
+			<!-- == LABIBLE AFFECT == -->
+			<GameDBLocalizedString>	
+			<LocID>SYM_VIO_LABILE_AFFECT</LocID>						
+			<Text>Labile Affect</Text>	
+			</GameDBLocalizedString>
+			
+			<GameDBLocalizedString>	
+			<LocID>SYM_VIO_LABILE_AFFECT_DESCRIPTION</LocID>			
+			<Text>A person with labile affect shows rapid changes in their emotions that don't seem to relate to any outside situations or seem to be inappropriate for the situation. In other words, if you have labile affect, you would display rapid and repeating shifts in mood or affect.</Text>	
+			</GameDBLocalizedString>
+
+			<!-- == AGGRESSION == -->
+			<GameDBLocalizedString>	
+			<LocID>SYM_VIO_AGGRESSION</LocID>						
+			<Text>Aggression</Text>	
+			</GameDBLocalizedString>
+			
+			<GameDBLocalizedString>	
+			<LocID>SYM_VIO_AGGRESSION_DESCRIPTION</LocID>			
+			<Text>Aggression is overt or covert, often harmful, social interaction with the intention of inflicting damage or other unpleasantness upon another individual. It may occur either reactively or without provocation./Text>	
+			</GameDBLocalizedString>
+
+			<!-- == SUNDOWNING == -->
+			<GameDBLocalizedString>	
+			<LocID>SYM_VIO_MN_SUNDOWNING</LocID>						
+			<Text>Sundowning</Text>	
+			</GameDBLocalizedString>
+			
+			<GameDBLocalizedString>	
+			<LocID>SYM_VIO_MN_SUNDOWNING_DESCRIPTION</LocID>			
+			<Text>Sundowning is a symptom of Alzheimer’s disease and other forms of dementia. It’s also known as “late-day confusion.” Symptoms such as confusion and agitation may get worse in the late afternoon and evening. In comparison, patients symptoms may be less pronounced earlier in the day.</Text>	
+			</GameDBLocalizedString>
+	
+		</LocalizedStrings>
+    </GameDBStringTable>
+</Database>

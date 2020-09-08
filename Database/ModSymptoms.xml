@@ -1,0 +1,309 @@
+<Database>
+	<!-- ######################### -->
+	<!-- Neuropsychology Mod by Violet Unicorn -->
+	
+	<!-- == MOOD SWINGS == -->
+    <GameDBSymptom ID="SYM_VIO_MOOD_SWINGS">                      
+        <DescriptionLocID>SYM_VIO_MOOD_SWINGS_DESCRIPTION</DescriptionLocID>
+        <DiscomfortLevel>Medium</DiscomfortLevel>
+        <PatientComplains>true</PatientComplains>
+        <Hazard>Low</Hazard>
+        <PatientMobility>MOBILE</PatientMobility>
+        <Examinations>
+            <ExaminationRef>EXM_INTERVIEW</ExaminationRef>
+        </Examinations>
+        <Treatments>
+            <TreatmentRef>TRT_ANTIDEPRESSIVES</TreatmentRef>
+        </Treatments>
+        
+        <ShameLevel>0</ShameLevel>
+        <IsMainSymptom>false</IsMainSymptom>
+        <IconIndex>1607</IconIndex>
+        
+        <CustomIconBigAssetRef>ASSET_NEUROPSYCH_ICON_S3</CustomIconBigAssetRef>
+        <CustomIconSmallAssetRef>ASSET_NEUROPSYCH_ICON_S3_SMALL</CustomIconSmallAssetRef>
+   
+   </GameDBSymptom>
+
+    <!-- == AVOLITION == -->
+    <GameDBSymptom ID="SYM_VIO_AVOLITION">              
+        <DescriptionLocID>SYM_VIO_AVOLITION_DESCRIPTION</DescriptionLocID>
+        <DiscomfortLevel>Low</DiscomfortLevel>
+        <PatientComplains>false</PatientComplains>
+        <Hazard>Low</Hazard>    
+        <PatientMobility>MOBILE</PatientMobility>
+        
+        <Examinations>
+            <ExaminationRef>EXM_VIO_PSYCHOLOGICAL_ASSESSMENT</ExaminationRef>   
+        </Examinations>
+        
+        <Treatments>
+            <TreatmentRef>TRT_ANTIDEPRESSIVES</TreatmentRef>
+        </Treatments>
+        
+        <ShameLevel>0</ShameLevel>
+        <IsMainSymptom>false</IsMainSymptom>
+        <IconIndex>1607</IconIndex>
+        
+        <CustomIconBigAssetRef>ASSET_NEUROPSYCH_ICON_S1</CustomIconBigAssetRef>
+        <CustomIconSmallAssetRef>ASSET_NEUROPSYCH_ICON_S1_SMALL</CustomIconSmallAssetRef>
+   
+   </GameDBSymptom>
+
+   <!-- == SHORT TERM MEMORY LOSS == -->
+    <GameDBSymptom ID="SYM_VIO_SHORT_TERM_MEMORY_LOSS">                    
+        <DescriptionLocID>SYM_VIO_SHORT_TERM_MEMORY_LOSS_DESCRIPTION</DescriptionLocID>
+        <DiscomfortLevel>Medium</DiscomfortLevel>
+        <PatientComplains>true</PatientComplains>
+        <Hazard>Low</Hazard>
+        <PatientMobility>MOBILE</PatientMobility>
+        
+        <Examinations>
+            <ExaminationRef>EXM_CT</ExaminationRef>
+            <ExaminationRef>EXM_VIO_NEUROPSYCHOLOGICAL_ASSESSMENT</ExaminationRef>
+        </Examinations>
+        
+        <Treatments>
+            <TreatmentRef>TRT_VIO_SUPPORTIVE_PSYCHOTHERAPY</TreatmentRef>
+        </Treatments>
+        
+        <ShameLevel>10</ShameLevel>
+        <IsMainSymptom>false</IsMainSymptom>
+        <IconIndex>1301</IconIndex>
+        
+        <CustomIconBigAssetRef>ASSET_NEUROPSYCH_ICON_S2</CustomIconBigAssetRef>
+        <CustomIconSmallAssetRef>ASSET_NEUROPSYCH_ICON_S2_SMALL</CustomIconSmallAssetRef>
+   
+   </GameDBSymptom>
+
+   <!-- == MEMORY GAPS == -->
+    <GameDBSymptom ID="SYM_VIO_MEMORY_GAPS">             
+        <DescriptionLocID>SYM_VIO_MEMORY_GAPS_DESCRIPTION</DescriptionLocID>
+        <DiscomfortLevel>Medium</DiscomfortLevel>
+        <PatientComplains>true</PatientComplains>
+        <Hazard>Low</Hazard>
+        <PatientMobility>MOBILE</PatientMobility>
+        
+        <Examinations>
+            <ExaminationRef>EXM_MRI</ExaminationRef>
+            <ExaminationRef>EXM_VIO_NEUROPSYCHOLOGICAL_ASSESSMENT</ExaminationRef>
+        </Examinations>
+        
+        <Treatments>
+            <TreatmentRef>TRT_VIO_SUPPORTIVE_PSYCHOTHERAPY</TreatmentRef>
+
+        </Treatments>
+        
+        <ShameLevel>0</ShameLevel>
+        <IsMainSymptom>false</IsMainSymptom>
+        <IconIndex>1607</IconIndex>
+        
+        <CustomIconBigAssetRef>ASSET_NEUROPSYCH_ICON_S4</CustomIconBigAssetRef>
+        <CustomIconSmallAssetRef>ASSET_NEUROPSYCH_ICON_S4_SMALL</CustomIconSmallAssetRef>
+        
+    </GameDBSymptom>
+
+    <!-- == APHASIA == -->
+    <GameDBSymptom ID="SYM_VIO_APHASIA">             
+        <DescriptionLocID>SYM_VIO_APHASIA_DESCRIPTION</DescriptionLocID>
+        <DiscomfortLevel>High</DiscomfortLevel>
+        <PatientComplains>false</PatientComplains>
+        <Hazard>Low</Hazard>
+        <PatientMobility>MOBILE</PatientMobility>
+        
+        <Examinations>
+            <ExaminationRef>EXM_SPEECH_LISTENING</ExaminationRef>
+        </Examinations>
+        
+         <Treatments>
+            <TreatmentRef>TRT_VIO_SPEECH_AND_LANGUAGE_THERAPY</TreatmentRef>
+        </Treatments>
+        
+        <ShameLevel>60</ShameLevel>
+        <IsMainSymptom>false</IsMainSymptom>
+        <IconIndex>1607</IconIndex>
+        
+        <CustomIconBigAssetRef>ASSET_NEUROPSYCH_ICON_S5</CustomIconBigAssetRef>
+        <CustomIconSmallAssetRef>ASSET_NEUROPSYCH_ICON_S5_SMALL</CustomIconSmallAssetRef>
+        
+    </GameDBSymptom>
+
+    <!-- == DISORIENTATION == -->
+     <GameDBSymptom ID="SYM_VIO_DISORIENTATION">             
+        <DescriptionLocID>SYM_VIO_DISORIENTATION_DESCRIPTION</DescriptionLocID>
+        <DiscomfortLevel>Low</DiscomfortLevel>
+        <PatientComplains>false</PatientComplains>
+        <Hazard>Low</Hazard>
+        <PatientMobility>MOBILE</PatientMobility>
+        
+        <Examinations>
+            <ExaminationRef>EXM_INTERVIEW</ExaminationRef>
+        </Examinations>
+        
+        <Treatments>
+            <TreatmentRef>TRT_REST</TreatmentRef>
+        </Treatments>
+        
+        <ShameLevel>0</ShameLevel>
+        <IsMainSymptom>false</IsMainSymptom>
+        <IconIndex>1607</IconIndex>
+        
+        <CustomIconBigAssetRef>ASSET_NEUROPSYCH_ICON_S6</CustomIconBigAssetRef>
+        <CustomIconSmallAssetRef>ASSET_NEUROPSYCH_ICON_S6_SMALL</CustomIconSmallAssetRef>
+        
+    </GameDBSymptom>
+
+    <!-- == INAPPROPRIATE BEHAVIOUR == -->
+     <GameDBSymptom ID="SYM_VIO_INAPPROPRIATE_BEHAVIOUR">             
+        <DescriptionLocID>SYM_VIO_INAPPROPRIATE_BEHAVIOUR_DESCRIPTION</DescriptionLocID>
+        <DiscomfortLevel>Low</DiscomfortLevel>
+        <PatientComplains>false</PatientComplains>
+        <Hazard>Low</Hazard>
+        <PatientMobility>MOBILE</PatientMobility>
+        
+        <Examinations>
+            <ExaminationRef>EXM_EVALUATION</ExaminationRef>
+        </Examinations>
+        
+        <Treatments>
+            <TreatmentRef>TRT_VIO_SUPPORTIVE_PSYCHOTHERAPY</TreatmentRef>
+        </Treatments>
+        
+        <ShameLevel>0</ShameLevel>
+        <IsMainSymptom>false</IsMainSymptom>
+        <IconIndex>1607</IconIndex>
+        
+        <CustomIconBigAssetRef>ASSET_NEUROPSYCH_ICON_S7</CustomIconBigAssetRef>
+        <CustomIconSmallAssetRef>ASSET_NEUROPSYCH_ICON_S7_SMALL</CustomIconSmallAssetRef>
+        
+    </GameDBSymptom>
+
+    <!-- == AGNOSIA == -->
+     <GameDBSymptom ID="SYM_VIO_AGNOSIA">             
+        <DescriptionLocID>SYM_VIO_AGNOSIA_DESCRIPTION</DescriptionLocID>
+        <DiscomfortLevel>Medium</DiscomfortLevel>
+        <PatientComplains>false</PatientComplains>
+        <Hazard>Low</Hazard>
+        <PatientMobility>MOBILE</PatientMobility>
+        
+        <Examinations>
+            <ExaminationRef>EXM_VIO_EXECUTIVE_FUNCTION_TEST</ExaminationRef>
+        </Examinations>
+        
+        <Treatments>
+            <TreatmentRef>TRT_VIO_SPEECH_AND_LANGUAGE_THERAPY</TreatmentRef>
+        </Treatments>
+        
+        <ShameLevel>0</ShameLevel>
+        <IsMainSymptom>false</IsMainSymptom>
+        <IconIndex>1607</IconIndex>
+        
+        <CustomIconBigAssetRef>ASSET_NEUROPSYCH_ICON_S8</CustomIconBigAssetRef>
+        <CustomIconSmallAssetRef>ASSET_NEUROPSYCH_ICON_S8_SMALL</CustomIconSmallAssetRef>
+        
+    </GameDBSymptom>
+
+    <!-- == APRAXIA == -->
+    <GameDBSymptom ID="SYM_VIO_APRAXIA">
+        <DescriptionLocID>SYM_VIO_APRAXIA_DESCRIPTION</DescriptionLocID>        
+        <DiscomfortLevel>Medium</DiscomfortLevel>
+        <PatientComplains>true</PatientComplains>
+        <Hazard>Low</Hazard>
+        <PatientMobility>MOBILE</PatientMobility>
+        
+        <Examinations>
+            <ExaminationRef>EXM_VIO_EXECUTIVE_FUNCTION_TEST</ExaminationRef>
+        </Examinations>
+        
+        <Treatments>
+            <TreatmentRef>TRT_VIO_SPEECH_AND_LANGUAGE_THERAPY</TreatmentRef>
+        </Treatments>
+        
+        <ShameLevel>0</ShameLevel>
+        <IsMainSymptom>false</IsMainSymptom>
+        <IconIndex>1317</IconIndex>
+        
+        <CustomIconBigAssetRef>ASSET_NEUROPSYCH_ICON_S9</CustomIconBigAssetRef>
+        <CustomIconSmallAssetRef>ASSET_NEUROPSYCH_ICON_S9_SMALL</CustomIconSmallAssetRef>
+        
+    </GameDBSymptom>
+
+    <!-- == PARAPHASIAS == -->
+    <GameDBSymptom ID="SYM_VIO_PARAPHASIAS">
+        <DescriptionLocID>SYM_VIO_PARAPHASIAS_DESCRIPTION</DescriptionLocID>        
+        <DiscomfortLevel>Medium</DiscomfortLevel>
+        <PatientComplains>false</PatientComplains>
+        <Hazard>Low</Hazard>
+        <PatientMobility>MOBILE</PatientMobility>
+        
+       <Examinations>
+            <ExaminationRef>EXM_SPEECH_LISTENING</ExaminationRef>
+        </Examinations>
+        
+         <Treatments>
+            <TreatmentRef>TRT_VIO_SPEECH_AND_LANGUAGE_THERAPY</TreatmentRef>
+        </Treatments>
+        </Treatments>
+        
+        <ShameLevel>50</ShameLevel>
+        <IsMainSymptom>false</IsMainSymptom>
+        <IconIndex>1317</IconIndex>
+        
+        <CustomIconBigAssetRef>ASSET_NEUROPSYCH_ICON_S10</CustomIconBigAssetRef>
+        <CustomIconSmallAssetRef>ASSET_NEUROPSYCH_ICON_S10_SMALL</CustomIconSmallAssetRef>
+        
+    </GameDBSymptom>
+    
+    <!-- == LABIBLE AFFECT == -->
+    <GameDBSymptom ID="SYM_VIO_LABILE_AFFECT">
+        <DescriptionLocID>SYM_VIO_LABILE_AFFECT_DESCRIPTION</DescriptionLocID>        
+        <DiscomfortLevel>Medium</DiscomfortLevel>
+        <PatientComplains>true</PatientComplains>
+        <Hazard>Low</Hazard>
+        <PatientMobility>MOBILE</PatientMobility>
+        
+        <Examinations>
+            <ExaminationRef>EXM_VIO_PSYCHOLOGICAL_ASSESSMENT</ExaminationRef>
+        </Examinations>
+        
+        <Treatments>
+            <TreatmentRef>TRT_VIO_NUEDEXTA</TreatmentRef>
+            <TreatmentRef>TRT_VIO_SUPPORTIVE_PSYCHOTHERAPY</TreatmentRef>
+        </Treatments>
+        
+        <ShameLevel>0</ShameLevel>
+        <IsMainSymptom>false</IsMainSymptom>
+        <IconIndex>1317</IconIndex>
+        
+        <CustomIconBigAssetRef>ASSET_NEUROPSYCH_ICON_S11</CustomIconBigAssetRef>
+        <CustomIconSmallAssetRef>ASSET_NEUROPSYCH_ICON_S11_SMALL</CustomIconSmallAssetRef>
+        
+    </GameDBSymptom>
+
+    <!-- == AGGRESSION == -->
+    <GameDBSymptom ID="SYM_VIO_AGGRESSION">
+        <DescriptionLocID>SYM_VIO_AGGRESSION_DESCRIPTION</DescriptionLocID>        
+        <DiscomfortLevel>High</DiscomfortLevel>
+        <PatientComplains>true</PatientComplains>
+        <Hazard>Low</Hazard>
+        <PatientMobility>MOBILE</PatientMobility>
+        
+        <Examinations>
+            <ExaminationRef>EXM_INTERVIEW</ExaminationRef>
+        </Examinations>
+        
+        <Treatments>
+            <TreatmentRef>TRT_VIO_SEDATIVES</TreatmentRef>
+            <TreatmentRef>TRT_VIO_SUPPORTIVE_PSYCHOTHERAPY</TreatmentRef>
+        </Treatments>
+        
+        <ShameLevel>0</ShameLevel>
+        <IsMainSymptom>false</IsMainSymptom>
+        <IconIndex>1317</IconIndex>
+        
+        <CustomIconBigAssetRef>ASSET_NEUROPSYCH_ICON_S12</CustomIconBigAssetRef>
+        <CustomIconSmallAssetRef>ASSET_NEUROPSYCH_ICON_S12_SMALL</CustomIconSmallAssetRef>
+        
+    </GameDBSymptom>
+	
+</Database>

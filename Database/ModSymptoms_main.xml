@@ -1,0 +1,33 @@
+<Database>
+	<!-- ######################### -->
+	<!-- Neuropsychology Mod by Violet Unicorn -->
+    
+	
+	 <GameDBSymptom ID="SYM_VIO_MN_SUNDOWNING">
+        <DescriptionLocID>SYM_VIO_MN_SUNDOWNING_DESCRIPTION</DescriptionLocID>
+        <DiscomfortLevel>Low</DiscomfortLevel>
+        <PatientComplains>false</PatientComplains>
+        <Hazard>Low</Hazard>
+        <PatientMobility>MOBILE</PatientMobility>
+        
+        <Examinations>
+            <ExaminationRef>EXM_VIO_ADAS_COG_TEST</ExaminationRef>
+        </Examinations>
+        
+        <Treatments>
+            <TreatmentRef>TRT_VIO_PALLIATIVE_CARE</TreatmentRef>
+            <TreatmentRef>TRT_VIO_MEMANTINE</TreatmentRef>
+            
+        </Treatments>
+        
+        <ShameLevel>90</ShameLevel>
+        <IsMainSymptom>true</IsMainSymptom>
+        <IconIndex>1301</IconIndex>
+        
+        <CustomIconBigAssetRef>ASSET_NEUROPSYCH_ICON_SM1</CustomIconBigAssetRef>
+        <CustomIconSmallAssetRef>ASSET_NEUROPSYCH_ICON_SM1_SMALL</CustomIconSmallAssetRef>
+    
+    </GameDBSymptom>
+
+    
+</Database>

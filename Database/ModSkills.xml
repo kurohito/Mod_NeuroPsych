@@ -1,0 +1,17 @@
+<Database>
+	<!-- ######################### -->
+	<!-- Neuropsychology Mod by Violet Unicorn -->
+
+<GameDBSkill ID="SKILL_DOC_SPEC_NEUROPSYCH">
+	<AbbreviationLocID>SKILL_DOC_SPEC_NEUROPSYCH_DESCRIPTION</AbbreviationLocID>
+	<ParentSkill>SKILL_DOC_QUALIF_GENERAL_MEDICINE</ParentSkill>
+
+	<IconIndex>403</IconIndex>
+
+	<CustomIconAssetRef>ASSET_NEUROPSYCH_ICON_SK</CustomIconAssetRef>
+	<CustomIconLightBackgroundAssetRef>ASSET_NEUROPSYCH_ICON_SK_DARK</CustomIconLightBackgroundAssetRef>
+
+	<ExtraLevelingPercent>100</ExtraLevelingPercent>
+</GameDBSkill>
+
+</Database>

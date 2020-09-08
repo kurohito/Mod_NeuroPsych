@@ -1,0 +1,34 @@
+﻿<Database>
+    <GameDBStringTable ID="LOC_EN_ADDON_NEUROPSYCH_SKILLS">
+        
+        <LanguageCode>en</LanguageCode>
+        <LanguageNameLocalized>English</LanguageNameLocalized>
+
+        <Contributors>
+            <Name>Violet Unicorn</Name>
+        </Contributors>
+        
+        <LocalizedStrings>
+            
+		<!-- Departments -->
+			
+			<GameDBLocalizedString>	
+				<LocID>DPT_NEUROPSYCH</LocID>						
+				<Text>Neuropsychology Department</Text>	
+			</GameDBLocalizedString>
+			
+		<!--Skills-->
+			
+			<GameDBLocalizedString>	
+				<LocID>SKILL_DOC_SPEC_NEUROPSYCH</LocID>				
+				<Text>Nueropsychology</Text>	
+			</GameDBLocalizedString>
+			
+			<GameDBLocalizedString>	
+				<LocID>SKILL_DOC_SPEC_NEUROPSYCH_DESCRIPTION</LocID>	
+				<Text>Neuropsychology is a specialty of psychology (the study of the mind) and neurology (the study of the brain). A neuropsychologist works to understand the structure and function of the brain and its relationship to thoughts and behaviors. This specialty helps us understand how the brain and behavior are connected.</Text>	
+			</GameDBLocalizedString>
+			
+		</LocalizedStrings>
+	</GameDBStringTable>
+</Database>
