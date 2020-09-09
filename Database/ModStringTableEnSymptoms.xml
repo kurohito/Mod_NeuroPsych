@@ -141,7 +141,7 @@
 			
 			<GameDBLocalizedString>	
 			<LocID>SYM_VIO_AGGRESSION_DESCRIPTION</LocID>			
-			<Text>Aggression is overt or covert, often harmful, social interaction with the intention of inflicting damage or other unpleasantness upon another individual. It may occur either reactively or without provocation./Text>	
+			<Text>Aggression is overt or covert, often harmful, social interaction with the intention of inflicting damage or other unpleasantness upon another individual. It may occur either reactively or without provocation.</Text>	
 			</GameDBLocalizedString>
 
 			<!-- == SUNDOWNING == -->
