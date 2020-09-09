@@ -91,7 +91,6 @@
         
         <Treatments>
             <TreatmentRef>TRT_VIO_SUPPORTIVE_PSYCHOTHERAPY</TreatmentRef>
-
         </Treatments>
         
         <ShameLevel>0</ShameLevel>
@@ -242,7 +241,6 @@
         
          <Treatments>
             <TreatmentRef>TRT_VIO_SPEECH_AND_LANGUAGE_THERAPY</TreatmentRef>
-        </Treatments>
         </Treatments>
         
         <ShameLevel>50</ShameLevel>
