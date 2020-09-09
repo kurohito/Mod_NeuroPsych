@@ -34,7 +34,6 @@
             <GameDBLocalizedString> <LocID>EXM_VIO_ADAS_COG_TEST</LocID>                 
             <Text>Alzheimer's Disease Assessment Scale-Cognitive Subscale test</Text>   
             </GameDBLocalizedString>
-
             <GameDBLocalizedString> <LocID>EXM_VIO_ADAS_COG_TEST_DESCRIPTION</LocID>     
             <Text>The Alzheimer's Disease Assessment Scale-Cognitive Subscale test is one of the most frequently used tests to measure cognition in research studies and clinical trials for new drugs and other interventions. It's more thorough than the Mini Mental State Exam, and it primarily measures language and memory.</Text>   
             </GameDBLocalizedString>

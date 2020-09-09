@@ -3,7 +3,7 @@
 	<!-- Neuropsychology Mod by Violet Unicorn -->
 
    <GameDBObject ID="OBJECT_DECAL_MOD_NEUROPSYCH">
-        <AbbreviationLocID>OBJECT_DECAL_NEUROPSYCH_DESC</AbbreviationLocID>
+        <AbbreviationLocID>OBJECT_DECAL_MOD_NEUROPSYCH_DESC</AbbreviationLocID>
         <TextureRef>ASSET_TEX_NEUROPSYCH_DECALS</TextureRef>
         <TextureAtlasLayout>LAYOUT_16_X_16</TextureAtlasLayout>
         <SpriteShape>SHAPE_1_X_1</SpriteShape>

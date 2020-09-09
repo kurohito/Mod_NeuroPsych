@@ -37,12 +37,12 @@
 		
 
 		<GameDBLocalizedString>	
-			<LocID>OBJECT_DECAL_NEUROPSYCH_DPT</LocID>								
+			<LocID>OBJECT_DECAL_MOD_NEUROPSYCH</LocID>								
 			<Text>Neuropsychology Department</Text>	
 		</GameDBLocalizedString>
 		
 		<GameDBLocalizedString>	
-			<LocID>OBJECT_DECAL_NEUROPSYCH_DESC</LocID>								
+			<LocID>OBJECT_DECAL_MOD_NEUROPSYCH_DESC</LocID>								
 			<Text>Wall decal</Text>	
 		</GameDBLocalizedString>
 
