@@ -32,7 +32,7 @@
             <ProcedureScript>ProcedureScriptTreatmentReceipt</ProcedureScript>
         </Procedure>
         <TreatmentType>RECEIPT</TreatmentType>
-        <PharmacyPickup>false</PharmacyPickup>
+        <PharmacyPickup>true</PharmacyPickup>
         <Cost>150</Cost>
         <IconIndex>1953</IconIndex>
         <CustomIconBigAssetRef>ASSET_NEUROPSYCH_ICON_TR5</CustomIconBigAssetRef>
@@ -69,7 +69,7 @@
             <ProcedureScript>ProcedureScriptTreatmentReceipt</ProcedureScript>
         </Procedure>
         <TreatmentType>RECEIPT</TreatmentType>
-        <PharmacyPickup>false</PharmacyPickup>
+        <PharmacyPickup>true</PharmacyPickup>
         <Cost>250</Cost>
         <IconIndex>1953</IconIndex>
         <CustomIconBigAssetRef>ASSET_NEUROPSYCH_ICON_TR23</CustomIconBigAssetRef>
@@ -106,7 +106,7 @@
             <ProcedureScript>ProcedureScriptTreatmentReceipt</ProcedureScript>
         </Procedure>
         <TreatmentType>RECEIPT</TreatmentType>
-        <PharmacyPickup>false</PharmacyPickup>
+        <PharmacyPickup>true</PharmacyPickup>
         <Cost>100</Cost>
         <IconIndex>1953</IconIndex>
         <CustomIconBigAssetRef>ASSET_NEUROPSYCH_ICON_TR3</CustomIconBigAssetRef>
