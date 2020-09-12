@@ -77,8 +77,8 @@
 		</GameDBDepartmentRoomRequirement>
 	</SharedRoomsClinic>
 
-	<!--<NoHospitalization>true</NoHospitalization>-->
-	<!--<HospitalizationWithoutSurgeons>true</HospitalizationWithoutSurgeons>-->
+	<NoHospitalization>true</NoHospitalization>
+	<HospitalizationWithoutSurgeons>true</HospitalizationWithoutSurgeons>
 
 
 	<!-- ### Hospitalisation ### --><!--
