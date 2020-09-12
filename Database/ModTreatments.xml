@@ -14,13 +14,17 @@
             </RequiredSkillsToPrescribe>
 
             <RequiredDoctorQualificationList>
-                <SkillRef>SKILL_DOC_QUALIF_GENERAL_MEDICINE</SkillRef>
+                <SkillRef>SKILL_DOC_SPEC_NEUROPSYCH</SkillRef>
             </RequiredDoctorQualificationList>
 
+            <!--<RequiredDoctorQualificationList>
+                <SkillRef>SKILL_DOC_QUALIF_GENERAL_MEDICINE</SkillRef>
+            </RequiredDoctorQualificationList>-->
+
             <RequiredEquipmentList>
-                <RequiredEquipment>
+                <!--<RequiredEquipment>
                     <Tag>sit_exam</Tag>
-                </RequiredEquipment>
+                </RequiredEquipment>-->
                 <RequiredEquipment>
                     <Tag>receipt</Tag>
                 </RequiredEquipment>
@@ -51,13 +55,14 @@
             </RequiredSkillsToPrescribe>
 
             <RequiredDoctorQualificationList>
-                <SkillRef>SKILL_DOC_QUALIF_GENERAL_MEDICINE</SkillRef>
+                <SkillRef>SKILL_DOC_SPEC_NEUROPSYCH</SkillRef>
             </RequiredDoctorQualificationList>
 
+            <!--<RequiredDoctorQualificationList>
+                <SkillRef>SKILL_DOC_QUALIF_GENERAL_MEDICINE</SkillRef>
+            </RequiredDoctorQualificationList>-->
+
             <RequiredEquipmentList>
-                <RequiredEquipment>
-                    <Tag>sit_exam</Tag>
-                </RequiredEquipment>
                 <RequiredEquipment>
                     <Tag>receipt</Tag>
                 </RequiredEquipment>
@@ -88,13 +93,17 @@
             </RequiredSkillsToPrescribe>
 
             <RequiredDoctorQualificationList>
-                <SkillRef>SKILL_DOC_QUALIF_GENERAL_MEDICINE</SkillRef>
+                <SkillRef>SKILL_DOC_SPEC_NEUROPSYCH</SkillRef>
             </RequiredDoctorQualificationList>
 
+            <!--<RequiredDoctorQualificationList>
+                <SkillRef>SKILL_DOC_QUALIF_GENERAL_MEDICINE</SkillRef>
+            </RequiredDoctorQualificationList>-->
+
             <RequiredEquipmentList>
-                <RequiredEquipment>
+                <!--<RequiredEquipment>
                     <Tag>sit_exam</Tag>
-                </RequiredEquipment>
+                </RequiredEquipment>-->
                 <RequiredEquipment>
                     <Tag>receipt</Tag>
                 </RequiredEquipment>
@@ -126,8 +135,12 @@
             </RequiredSkillsToPrescribe>
 
             <RequiredDoctorQualificationList>
-                <SkillRef>SKILL_DOC_QUALIF_GENERAL_MEDICINE</SkillRef>
+                <SkillRef>SKILL_DOC_SPEC_NEUROPSYCH</SkillRef>
             </RequiredDoctorQualificationList>
+
+            <!--<RequiredDoctorQualificationList>
+                <SkillRef>SKILL_DOC_QUALIF_GENERAL_MEDICINE</SkillRef>
+            </RequiredDoctorQualificationList>-->
 
             <RequiredEquipmentList>
                 <RequiredEquipment>
@@ -160,8 +173,12 @@
             </RequiredSkillsToPrescribe>
 
             <RequiredDoctorQualificationList>
-                <SkillRef>SKILL_DOC_QUALIF_GENERAL_MEDICINE</SkillRef>
+                <SkillRef>SKILL_DOC_SPEC_NEUROPSYCH</SkillRef>
             </RequiredDoctorQualificationList>
+
+            <!--<RequiredDoctorQualificationList>
+                <SkillRef>SKILL_DOC_QUALIF_GENERAL_MEDICINE</SkillRef>
+            </RequiredDoctorQualificationList>-->
 
             <RequiredEquipmentList>
                 <RequiredEquipment>
@@ -194,8 +211,12 @@
             </RequiredSkillsToPrescribe>
 
             <RequiredDoctorQualificationList>
-                <SkillRef>SKILL_DOC_QUALIF_GENERAL_MEDICINE</SkillRef>
+                <SkillRef>SKILL_DOC_SPEC_NEUROPSYCH</SkillRef>
             </RequiredDoctorQualificationList>
+
+            <!--<RequiredDoctorQualificationList>
+                <SkillRef>SKILL_DOC_QUALIF_GENERAL_MEDICINE</SkillRef>
+            </RequiredDoctorQualificationList>-->
 
             <RequiredEquipmentList>
                 <RequiredEquipment>
